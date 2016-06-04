@@ -1,0 +1,37 @@
+// info page ( multi-menu )
+var dummyData = {
+	"Вопрос 1-3 ?":"<div class=\"col-md-12 animated fadeIn\"><h2>Example page info.</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere similique necessitatibus distinctio consequuntur obcaecati maiores rerum autem libero quae quasi fugiat, corrupti, ipsam voluptates accusamus, porro officia quod. Labore, tempora.</p></div>",
+	"Вопрос 1-4 ?":"",
+	"Вопрос 1-1-1 ?":"<div class=\"col-md-12\">dsgfsdgfdsg</div>",
+	"Вопрос 1-1-2 ?":"",
+	"Вопрос 1-1-3 ?":"",
+	"Вопрос 1-1-4 ?":"",
+	"Вопрос 1-2-1 ?":"",
+	"Вопрос 1-2-2 ?":"",
+	"Вопрос 1-2-3 ?":"",
+	"Вопрос 1-2-4 ?":"",
+	"Вопрос 2-1 ?":"",
+	"Вопрос 2-2 ?":"",
+	"Вопрос 2-3 ?":"",
+	"Вопрос 2-4 ?":"",
+	"Вопрос 3-1 ?":"",
+	"Вопрос 3-2 ?":"",
+	"Вопрос 3-3 ?":"",
+	"Вопрос 3-4 ?":"",
+	"Вопрос 4-1 ?":"",
+	"Вопрос 4-2 ?":"",
+	"Вопрос 4-3 ?":"",
+	"Вопрос 4-4 ?":"",
+	"Вопрос 5-1 ?":"",
+	"Вопрос 5-2 ?":"",
+	"Вопрос 5-3 ?":"",
+	"Вопрос 5-4 ?":"",
+
+// services page ( multi-menu )	
+	"Seed Mylks":"",
+	"Nut Mylks":"",
+	"Nutri Drinks":"",
+	"Nut Mylk Packs":"",
+	"Amino Acid Heaven":"",
+	"Allergy Free":""
+}

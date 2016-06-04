@@ -1,0 +1,57 @@
+.reclam-mesage {
+	padding: 20px;
+	padding-right: 150px;
+	padding-left: 30px;
+	background-color: #333;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+	z-index: 99; 
+	color: rgb(2, 168, 243);
+	.reclam-mesage-logo {
+		text-align: right;
+		img {
+			margin-top: 26px;
+			width: 25%;
+		}
+	}
+	.reclam-mesage-text {}
+	.reclam-mesage-button {
+		margin-top: 40px;
+		a {
+			margin-right: 5px;
+			color: #333;
+			transition: 0.3s;
+			font-size: 15px;
+			font-weight: bold;
+			background-color: rgb(2, 168, 243);
+			border-radius: 4px;
+			box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+			padding: 11px 35px;
+			padding-left: 25px;
+			&:after {
+				transition: all 0.3s;
+				color: #333;
+				top: -1px;
+				right: -10px;
+				font-size: 10px;
+				display: inline-block;
+				font-family: AC AppleIcons;
+				position: relative;
+				z-index: 1;
+				content: "❯";
+			}
+			&:hover {
+				&:after {
+					right: -15px;
+				}
+			}
+		}
+		.button-red {
+			background-color: transparent;
+			border: 3px solid rgb(2, 168, 243);
+			color: rgb(2, 168, 243);
+			&:after {
+				color: rgb(2, 168, 243);
+			}
+		}
+	}
+}

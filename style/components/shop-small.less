@@ -1,0 +1,207 @@
+@-webkit-keyframes swing {
+	25% {
+		-webkit-transform: rotate3d(0, 0, 1, 6deg);
+		transform: rotate3d(0, 0, 1, 6deg);
+	}
+
+	50% {
+		-webkit-transform: rotate3d(0, 0, 1, -4deg);
+		transform: rotate3d(0, 0, 1, -4deg);
+	}
+
+	75% {
+		-webkit-transform: rotate3d(0, 0, 1, 2deg);
+		transform: rotate3d(0, 0, 1, 2deg);
+	}
+
+	100% {
+		-webkit-transform: rotate3d(0, 0, 1, 0deg);
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+}
+
+@keyframes swing {
+  25% {
+		-webkit-transform: rotate3d(0, 0, 1, 6deg);
+		transform: rotate3d(0, 0, 1, 6deg);
+	}
+
+	50% {
+		-webkit-transform: rotate3d(0, 0, 1, -4deg);
+		transform: rotate3d(0, 0, 1, -4deg);
+	}
+
+	75% {
+		-webkit-transform: rotate3d(0, 0, 1, 2deg);
+		transform: rotate3d(0, 0, 1, 2deg);
+	}
+
+	100% {
+		-webkit-transform: rotate3d(0, 0, 1, 0deg);
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+}
+.shop-small {
+	background: linear-gradient(to bottom, transparent, rgba(2, 168, 243, .05)) !important;
+	padding-bottom: 120px;
+	padding-top: 50px;
+	padding-left: 250px;
+	padding-right: 190px;
+	h3 {
+		color: #333;
+	}
+	p {
+		color: #666;
+	}
+	.shop-small-description {
+		text-align: left;
+		&:before {
+			color: #333;
+			width: 60px;
+			height: 60px;
+			background-image: url('./../../images/icons/shop/shop-blue.svg');
+			background-size: contain;
+			top: 80px;
+			right: 85px;
+			display: inline-block;
+			position: relative;
+			content: "";
+		}
+	}
+	.shop-small-item {
+		padding: 0px;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		ul {
+			margin-left: 5px;
+			padding: 0px;
+			list-style: none;
+			li {
+				padding: 0px;
+				&:nth-child(1) {
+					&:before {
+						top: 20px;
+						right: 25px;
+						content: 'NEW';
+						width: 40px;
+						height: 40px;
+						border-radius: 50%;
+						color: white;
+						padding-top: 10px;
+						font-size: 12px;
+						font-weight: bold;
+						text-align: center;
+						background-color: rgb(2, 168, 243);
+						display: inline-block;
+						position: absolute;
+					}
+				}
+			}
+		}
+		.product {
+			width: 238px;
+			height: 350px;
+			padding: 15px;
+			padding-top: 40px;
+			background-color: rgba(255, 255, 255, .2);
+			border: 1px solid #ddd;
+			text-align: center;
+			&:hover {
+				border: 1px solid rgb(2, 168, 243);
+				img {
+					-webkit-animation: swing 0.6s forwards;	
+					animation: swing 0.6s forwards;	
+				}
+			}
+			img {
+				max-width: 100%;
+				-webkit-transform-origin: 50% 100%;
+				transform-origin: 50% 100%;
+			}
+			p {
+				margin-top: 20px;
+				font-weight: bold;
+			}
+			.product-stars {
+				i {
+					margin: -2px;
+					margin-top: 3px;
+					font-size: 15px;
+					color: #BBC0CE;
+					&:nth-child(-n+3) {
+						color: rgb(2, 168, 243);
+					}
+				}
+				span {
+					margin-left: 5px;
+					color: #BBC0CE;
+				}
+			}
+			.product-button {
+				border: 3px solid rgb(2, 168, 243);
+				border-radius: 4px;
+				padding: 8px 15px;
+				padding-right: 25px;
+				color: rgb(2, 168, 243);
+				font-weight: bold;
+				span {
+					margin-right: 14px;
+					&:after {
+						content: '';
+						width: 1px;
+						height: 32px;
+						top: 12px;
+						left: 8px;
+						display: inline-block;
+						position: relative;
+						background-color: rgb(2, 168, 243);
+					}
+				}
+				&:after {
+					transition: all 0.3s;
+					color: rgb(2, 168, 243);
+					top: -1px;
+					right: -10px;
+					font-size: 10px !important;
+					display: inline-block;
+					position: relative;
+					z-index: 1;
+					content: "❯";
+				}
+				&:hover {
+					&:after {
+						right: -15px;
+					}
+				}
+			}
+		}
+	}
+	.a2 {
+		color: white;
+		transition: all 0.3s;
+		font-size: 16px;
+		font-weight: bold;
+		background-color: rgb(2, 168, 243);
+		border-radius: 4px;
+		box-shadow: 0px 3px 8px 1px rgba(0,0,0,.2);
+		padding: 11px 35px !important;
+		padding-left: 25px !important;
+		&:after {
+			transition: all 0.3s;
+			color: white;
+			top: -1px;
+			right: -10px;
+			font-size: 10px !important;
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			content: "❯";
+		}
+		&:hover {
+			box-shadow: none;
+			&:after {
+				right: -15px;
+			}
+		}
+	}
+}
