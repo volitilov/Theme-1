@@ -3332,3 +3332,47 @@ originally authored by Nick Pettit - https://github.com/nickpettit/glide
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+///////////////////////////////////////////////////////////
+@-webkit-keyframes swing {
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 6deg);
+    transform: rotate3d(0, 0, 1, 6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, -4deg);
+    transform: rotate3d(0, 0, 1, -4deg);
+  }
+
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 2deg);
+    transform: rotate3d(0, 0, 1, 2deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 6deg);
+    transform: rotate3d(0, 0, 1, 6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, -4deg);
+    transform: rotate3d(0, 0, 1, -4deg);
+  }
+
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 2deg);
+    transform: rotate3d(0, 0, 1, 2deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
