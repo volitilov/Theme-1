@@ -3,17 +3,17 @@
 }
 /////////////////////////////////////////////////////
 .Home {
-	margin-top: 55px;
+	margin-top: 50px;
 	background: rgb(2, 168, 243);
 	padding: 0px;
 	/////////////////////////////////////////////////
 	.home-top {
 		display: block;
 		padding: 0px;
-		height: 800px;
+		height: 850px;
 		.home-slide {
 			display: block;
-			height: 800px;
+			height: 850px;
 			padding: 0px;
 		}
 		///////////////////////////////////////////////////
@@ -25,20 +25,25 @@
 		.Slide {
 			padding: 0px;
 			display: block;
-			z-index: 2;
 			.carousel-inner {
 				padding: 0px;
-				width: 100%;
-				height: 800px;
-				.active {
-					transition: 1.8s;
-				}
+				width: 99%;
+				height: 850px;
 				.carousel-caption {
-					width: 100%;
+					width: 99%;
 				}
 			}
 		}
+		.carousel-control {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 155px;
+		}
 		.carousel-control.right {
+			left: auto;
+			right: 0;
 			padding-top: 320px !important;
 			background-color: rgba(0, 0, 0, .1);
 			img {
@@ -51,9 +56,6 @@
 			img {
 				width: 20%;
 			}
-		}
-		.carousel-caption {
-			
 		}
 	}
 }

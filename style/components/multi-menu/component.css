@@ -1,5 +1,3 @@
-/* Icons (made with Icomoon.io) */
-
 @font-face {
 	font-family: 'feather';
 	font-weight: normal;
@@ -40,7 +38,7 @@
 	margin-left: -15px;
 	padding: 30px;
 	position: fixed;
-	width: 335px;
+	width: 350px;
 	height: 720px;
 	border-radius: 4px;
 	box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, .1);
