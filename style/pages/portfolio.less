@@ -1,0 +1,50 @@
+.portfolio {
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left: 3%;
+	margin-top: 70px;
+	width: 94.8%;
+	min-height: 680px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .1);
+	text-transform: uppercase;
+	p {
+		font-size: 12px;
+		text-transform: none;
+	}
+	.portfolio-page {
+		padding: 50px;
+		img {
+			width: 70%;
+		}
+		.choose-category {
+			color: rgb(2, 168, 243);
+			font-weight: bold;
+			font-size: 20px;
+			margin-top: 20px;
+		}
+	}
+	.portfolio-small {
+		padding: 0px;
+		padding-top: 6px;
+		margin-left: -15px;
+		background: white;
+		li {
+			.ex-portfolio {
+				width: 280px !important;
+				height: 230px;
+				margin: 10px !important;
+				&:before {
+					width: 280px !important;
+					height: 230px;
+				}
+				&:hover {
+					&:before {
+						padding: 100px;
+					}
+				}
+			}
+		}
+	}
+}
