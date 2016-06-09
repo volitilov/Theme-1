@@ -4,6 +4,12 @@
 	border-radius: 8px;
 	padding: 20px;
 	a {
+		&:focus {
+			-webkit-animation-name: flipOutX;
+			animation-name: flipOutX;
+			-webkit-backface-visibility: visible !important;
+			backface-visibility: visible !important;
+		}
 		.image-item {
 			border-radius: 4px;
 			margin-right: 10px;

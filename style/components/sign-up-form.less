@@ -1,0 +1,130 @@
+.form-sign-up {
+	background-color: white;
+	margin-top: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-left: 33%;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	border-radius: 6px;
+	a {
+		color: rgb(2, 168, 243);
+		&:after {
+			transition: all 0.3s;
+			color: rgb(2, 168, 243);
+			top: -2px;
+			right: -7px;
+			font-size: 5px;
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			content: "❯";
+		}
+		&:hover {
+			text-decoration: underline !important;
+			&:after {
+				right: -12px;
+			}
+		}
+	}
+	.form {
+		margin-top: 20px;
+		border-top: 1px solid #ddd;
+		form {
+			width: 100%;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			fieldset {
+				border: none !important;
+			}
+			input {
+				color: #333;
+				transition: 0.3s;
+				background-color: transparent !important;
+				padding-left: 20px;
+				width: 100%;
+				height: 40px;
+				margin: 3px;
+				border-radius: 25px;
+				border: 3px solid #333;
+				&:focus {
+					border-radius: 6px;
+					border: 3px solid rgb(2, 168, 243);
+					-webkit-appearance: caps-lock-indicator;
+					outline: none;
+				}
+			}
+			textarea {
+				color: #333;
+				transition: 0.3s;
+				background-color: transparent !important;
+				padding-left: 20px;
+				padding-top: 20px;
+				width: 42%;
+				border-radius: 10px;
+				height: 200px;
+				border: 3px solid #333;
+				&:focus {
+					border-radius: 6px;
+					border: 3px solid rgb(2, 168, 243);
+					-webkit-appearance: caps-lock-indicator;
+					outline: none;
+				}	
+			}
+			input::-webkit-input-placeholder,
+			textarea::-webkit-input-placeholder {
+				color: rgb(2, 168, 243);
+			}
+			legend {
+				display: none;
+			}
+			button {
+				margin-top: 20px;
+				border: none;
+				color: white;
+				transition: 0.3s;
+				font-size: 14px;
+				font-weight: bold;
+				background-color: rgb(2, 168, 243);
+				border-radius: 4px;
+				box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+				text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+				padding: 10px 30px;
+				&:hover {
+					cursor: pointer;
+					box-shadow: none;
+				}
+			}
+		}
+	}
+	.soc-sign {
+		border-top: 1px solid #ddd;
+		padding-top: 30px;
+		a {
+			transition: all 0.3s;
+			display: inline-block;
+			width: 35px;
+			height: 35px;
+			border: 3px solid rgb(2, 168, 243);
+			border-radius: 50%;
+			padding-top: 7px;
+			margin-right: 5px;
+			text-align: center;
+			&:after {
+				display: none;
+			}
+			&:hover {
+				border: 3px solid #333;
+				i {
+					color: #333;
+				}
+			}
+		}
+		i {
+			transition: all 0.3s;
+			font-size: 15px;
+			color: rgb(2, 168, 243);
+		}
+	}
+}
