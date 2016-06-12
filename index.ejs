@@ -2,9 +2,16 @@
 <div class="col-md-12 Home animated fadeIn text-center">
 	<div class="col-md-12 home-top">
 		<div class="col-md-12 home-slide">
-			<div class="col-md-12 Slide carousel slide" data-ride="carousel">
+			<div class="col-md-12 Slide carousel" data-interval="false">
+				<ol class="carousel-indicators">
+					<li data-target=".Slide" data-slide-to="0" class="active"></li>
+					<li data-target=".Slide" data-slide-to="1"></li>
+					<li data-target=".Slide" data-slide-to="2"></li>
+					<li data-target=".Slide" data-slide-to="3"></li>
+					<li data-target=".Slide" data-slide-to="4"></li>
+				</ol>
 				<div class="carousel-inner">
-					<div class="item active animated flipInY">
+					<div class="item active">
 						<div class="carousel-caption">
 							<% include components/_description-company %>
 						</div>
@@ -17,6 +24,16 @@
 					<div class="item animated flipInY">
 						<div class="carousel-caption">
 							<% include components/_advantages %>
+						</div>
+					</div>
+					<div class="item animated fadeIn">
+						<div class="carousel-caption">
+							<% include components/_big-image %>
+						</div>
+					</div>
+					<div class="item animated fadeIn">
+						<div class="carousel-caption">
+							<% include components/_grid-small-images %>
 						</div>
 					</div>
 				</div>
@@ -34,5 +51,6 @@
 <% include components/_portfolio-small %>
 <% include components/_services-small %>
 <% include components/_blog-small %>
+<% include components/_staff %>
 <% include components/_help-clients %>
 <% include components/_footer %>

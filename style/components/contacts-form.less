@@ -9,21 +9,23 @@
 			height: 40px;
 			border: 3px solid rgb(2, 168, 243);
 			border-radius: 50%;
+			background-color: rgb(2, 168, 243);
 			padding-top: 9px;
 			margin-right: 5px;
 			margin-top: 5px;
 			text-align: center;
 			&:hover {
 				border: 3px solid #333;
+				background-color: #333;
 				i {
-					color: #333;
+					color: white;
 				}
 			}
 		}
 		i {
 			transition: all 0.3s;
 			font-size: 15px;
-			color: rgb(2, 168, 243);
+			color: white;
 		}
 	}
 	.form-contacts {
@@ -74,6 +76,11 @@
 			input::-webkit-input-placeholder,
 			textarea::-webkit-input-placeholder {
 				color: rgb(2, 168, 243);
+			}
+			input::-webkit-outer-spin-button,
+			input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 			}
 			legend {
 				display: none;

@@ -1,36 +1,34 @@
 <section>
-	<nav class="navbar navbar-default head-search">
-		<div class="container-fluid">
+	<nav class="navbar navbar-default head">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">
+				<img alt="Brand" src="./../../images/start-page.png"/>
+			</a>
+		</div>
 
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav menu-icons">
-					<li class="home-i"><a href="/" class="home-icon" title="home"></a></li>
-					<li><a href="info" class="info-icon" title="info"></a></li>
-					<li><a href="portfolio" class="portfolio-icon" title="portfolio"></a></li>
-					<li><a href="services" class="services-icon" title="services"></a></li>
-				</ul>
-				<p class="navbar-text">Search-results</p>
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<form action="search-page">
-							<input type="text" placeholder="search" required/>
-						</form>
-					</li>
-					<li><a href="blog" class="btn" title="blog">Blog</a></li>
-					<li><a href="contacts" class="contacts-icon" title="contacts"></a></li>
-					<li><a href="sign-up" class="sign" title="sign up">Sign up</a></li>
-				</ul>
-			</div>
-			
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav menu-icons">
+				<li><a href="info" title="info"><img src="./../../images/icons/info/info-grey.svg"/></a></li>
+				<li><a href="portfolio" title="portfolio"><img src="./../../images/icons/portfolio/portfolio-grey.svg"/></a></li>
+				<li><a href="services" title="services"><img src="./../../images/icons/services/services-grey.svg"/></a></li>
+			</ul>
+			<p class="navbar-text">Search results</p>
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<form action="search-page" method="POST">
+						<input type="text" placeholder="search" required/>
+					</form>
+				</li>
+				<li><a href="blog" class="btn" title="blog">Blog</a></li>
+				<li class="contacts-btn"><a href="contacts" title="contacts"><img src="./../../images/icons/contacts/contacts-grey.svg"/></a></li>
+				<li class="sign"><a href="sign-up" title="sign up">Sign up</a></li>
+			</ul>
 		</div>
 	</nav>
 </section>
