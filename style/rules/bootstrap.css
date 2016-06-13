@@ -630,7 +630,7 @@ p {
   }
   .navbar-collapse.collapse {
     display: block !important;
-    height: 0px !important;
+    height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
   }
