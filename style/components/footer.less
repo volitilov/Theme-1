@@ -1,3 +1,4 @@
+///////////////////////////////////////////// default mobile devices
 footer {
 	text-transform: uppercase;
 	padding: 0px !important;
@@ -14,7 +15,8 @@ footer {
 		padding-bottom: 10px;
 		text-align: center;
 		img {
-			width: 9%;
+			width: 110px;
+			height: auto;
 		}
 	}
 	.footer-body {
@@ -23,8 +25,8 @@ footer {
 		background-color: rgb(2, 168, 243);
 		margin-top: -5px;
 		padding: 80px;
-		padding-left: 110px;
-		padding-right: 110px;
+		padding-left: 20px;
+		padding-right: 20px;
 		.site-map {
 			h5 {
 				font-size: 13px;
@@ -149,3 +151,289 @@ footer {
 		}
 	}
 }
+
+///////////////////////////////////////////////////	tablet devices
+@media  (min-width : 768px)  {
+	footer {
+		.footer-logo {
+			img {
+				width: 120px;
+			}
+		}
+		.footer-body {
+			z-index: 99;
+			box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+			background-color: rgb(2, 168, 243);
+			margin-top: -5px;
+			padding: 80px;
+			padding-left: 110px;
+			padding-right: 110px;
+			.site-map {
+				h5 {
+					font-size: 13px;
+					color: black;
+					margin-bottom: 20px;
+				}
+				ul {
+					padding: 0px;
+					margin-right: 50px;
+					list-style: none;
+					display: inline-block;
+					li {
+						padding-top: 6px;
+						padding-bottom: 6px;
+						a {
+							font-size: 12px;
+							font-weight: bold;
+							color: #333;
+							&:after {
+								transition: all 0.3s;
+								color: #333;
+								top: -1px;
+								right: -10px;
+								font-size: 10px;
+								display: inline-block;
+								position: relative;
+								z-index: 1;
+								content: "❯";
+							}
+							&:hover {
+								color: black;
+								&:after {
+									color: black;
+									right: -15px;
+								}
+							}
+						}
+					} 
+				}
+			}
+			.shop-locator {
+				h5 {
+					font-size: 13px;
+					color: black;
+					margin-bottom: 30px;
+				}
+				i {
+					color: #333;
+					font-size: 55px;
+				}
+				ul {
+					padding: 0px;
+					display: inline-block;
+					list-style: none;
+					li {
+						padding-left: 5px;
+					}
+				}
+			}
+		}
+		.bottom-text {
+			z-index: 199;
+			box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+			background-color: #333;
+			margin-top: -5px;
+			padding: 15px;
+			padding-top: 20px;
+			padding-left: 110px;
+			padding-right: 110px;
+			a {
+				font-size: 10px;
+				font-weight: bold;
+				padding: 0px !important;
+				padding-right: 15px !important;
+				margin-right: 15px;
+				color: rgb(2, 168, 243);
+				&:after {
+					transition: all 0.3s;
+					color: rgb(2, 168, 243);
+					top: -2px;
+					right: -7px;
+					font-size: 5px;
+					display: inline-block;
+					position: relative;
+					z-index: 1;
+					content: "❯";
+				}
+				&:hover {
+					text-decoration: underline !important;
+					&:after {
+						right: -12px;
+					}
+				}
+			}
+			.copyright {
+				display: inline;
+				padding: 0px;
+				a {
+					padding-left: 10px !important;
+				}
+				p {
+					font-size: 10px;
+					color: rgba(255, 255, 255, .4);
+					padding-right: 15px;
+					margin-right: 10px;
+					float: left;
+				}
+			}
+			.dop-info-footer {
+				padding: 0px;
+				a {
+					float: right;
+				}
+			}
+			.ac-gf {
+				float: right;
+				margin-top: -2px;
+				padding-right: 0px !important;
+				img {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}
+
+///////////////////////////////////////////////////	laptop and dekstop devices
+@media  (min-width : 981px) {
+	footer {
+		.footer-logo {
+			img {
+				width: 130px;
+			}
+		}
+		.footer-body {
+			z-index: 99;
+			box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+			background-color: rgb(2, 168, 243);
+			margin-top: -5px;
+			padding: 80px;
+			padding-left: 110px;
+			padding-right: 110px;
+			.site-map {
+				h5 {
+					font-size: 13px;
+					color: black;
+					margin-bottom: 20px;
+				}
+				ul {
+					padding: 0px;
+					margin-right: 50px;
+					list-style: none;
+					display: inline-block;
+					li {
+						padding-top: 6px;
+						padding-bottom: 6px;
+						a {
+							font-size: 12px;
+							font-weight: bold;
+							color: #333;
+							&:after {
+								transition: all 0.3s;
+								color: #333;
+								top: -1px;
+								right: -10px;
+								font-size: 10px;
+								display: inline-block;
+								position: relative;
+								z-index: 1;
+								content: "❯";
+							}
+							&:hover {
+								color: black;
+								&:after {
+									color: black;
+									right: -15px;
+								}
+							}
+						}
+					} 
+				}
+			}
+			.shop-locator {
+				h5 {
+					font-size: 13px;
+					color: black;
+					margin-bottom: 30px;
+				}
+				i {
+					color: #333;
+					font-size: 55px;
+				}
+				ul {
+					padding: 0px;
+					display: inline-block;
+					list-style: none;
+					li {
+						padding-left: 5px;
+					}
+				}
+			}
+		}
+		.bottom-text {
+			z-index: 199;
+			box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+			background-color: #333;
+			margin-top: -5px;
+			padding: 15px;
+			padding-top: 20px;
+			padding-left: 110px;
+			padding-right: 110px;
+			a {
+				font-size: 10px;
+				font-weight: bold;
+				padding: 0px !important;
+				padding-right: 15px !important;
+				margin-right: 15px;
+				color: rgb(2, 168, 243);
+				&:after {
+					transition: all 0.3s;
+					color: rgb(2, 168, 243);
+					top: -2px;
+					right: -7px;
+					font-size: 5px;
+					display: inline-block;
+					position: relative;
+					z-index: 1;
+					content: "❯";
+				}
+				&:hover {
+					text-decoration: underline !important;
+					&:after {
+						right: -12px;
+					}
+				}
+			}
+			.copyright {
+				display: inline;
+				padding: 0px;
+				a {
+					padding-left: 10px !important;
+				}
+				p {
+					font-size: 10px;
+					color: rgba(255, 255, 255, .4);
+					padding-right: 15px;
+					margin-right: 10px;
+					float: left;
+				}
+			}
+			.dop-info-footer {
+				padding: 0px;
+				a {
+					float: right;
+				}
+			}
+			.ac-gf {
+				float: right;
+				margin-top: -2px;
+				padding-right: 0px !important;
+				img {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}
+
+///////////////////////////////////////////////////	dekstop devices
