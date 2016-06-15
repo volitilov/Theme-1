@@ -1,8 +1,9 @@
+//////////////////////////////////////////////	default mobile devices
 .facts-box {
 	min-height: 850px;
-	padding-top: 100px;
-	padding-left: 170px;
-	padding-right: 170px;
+	padding: 0px;
+	padding-top: 50px;
+	padding-bottom: 150px;
 	h4 {
 		text-transform: uppercase;
 		color: black;
@@ -19,8 +20,6 @@
 	}
 	.facts {
 		margin-top: 50px;
-		padding-left: 50px;
-		padding-right: 50px;
 		ul {
 			padding: 0px;
 			list-style: none;
@@ -35,8 +34,36 @@
 				margin-bottom: 50px;
 			}
 		}
-		.b {
-			margin-left: 25%;
+	}
+}
+
+///////////////////////////////////////////////////	tablet devices
+@media  (min-width : 768px)  {
+	.facts-box {
+		min-height: 650px;
+		padding-bottom: 50px;
+		padding-left: 16%;
+		padding-right: 16%;
+	}
+}
+
+///////////////////////////////////////////////////	laptop and dekstop devices
+@media  (min-width : 996px) {
+	.facts-box {
+		min-height: 850px;
+		padding-top: 100px;
+		padding-left: 170px;
+		padding-right: 170px;
+		.facts {
+			margin-top: 50px;
+			padding-left: 50px;
+			padding-right: 50px;
+			
+			.b {
+				margin-left: 25%;
+			}
 		}
 	}
 }
+///////////////////////////////////////////////////	dekstop devices
+// not required

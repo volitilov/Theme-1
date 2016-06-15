@@ -1,13 +1,19 @@
+///////////////////////////////////////////////////	default mobile devices
 .services-small {
+	background: rgba(2, 168, 243, .1); /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1)); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background: linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1));
-	padding: 155px;
-	padding-left: 200px;
 	padding-top: 110px;
-	padding-bottom: 210px;
+	padding-bottom: 110px;
 	color: #333;
 	font-size: 12px;
 	.services-small-item {
 		padding: 0px;
+		width: 250px;
+		position: relative;
+		left: 50%;
+		margin-left: -125px;
 		.serv-ex-list {
 			padding: 0px;
 			margin-top: 20px;
@@ -44,6 +50,41 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+///////////////////////////////////////////////////	tablet devices
+@media  (min-width : 768px) {
+	.services-small {
+		.services-small-item {
+			width: 450px;
+			left: 25%;
+			margin-left: 0px;
+		}
+	}
+}
+
+///////////////////////////////////////////////////	laptop devices
+@media  (min-width : 996px) {
+	.services-small {
+		.services-small-item {
+			width: 720px;
+			left: 1%;
+			margin-left: -5%;
+		}
+	}
+}
+
+///////////////////////////////////////////////////	dekstop devices
+@media  (min-width : 1200px) {
+	.services-small {
+		padding-left: 19%;
+		padding-right: 19%;
+		.services-small-item {
+			width: 920px;
+			left: 0;
+			margin-left: 0px;
 		}
 	}
 }
