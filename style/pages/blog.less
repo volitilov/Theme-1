@@ -15,11 +15,14 @@
 		font-size: 12px;
 		text-transform: none;
 	}
+	ul {
+		padding: 0px;
+	}
 	.blog-page {
 		text-align: center;
 		padding: 50px;
 		img {
-			width: 70%;
+			width: 15%;
 		}
 		.choose-category {
 			color: rgb(2, 168, 243);
@@ -43,8 +46,9 @@
 	}
 	.blog-small-item {
 		.blog-item-2 {
-			min-height: 250px;
-			max-height: 250px;
+			width: 295px;
+			min-height: 270px;
+			max-height: 270px;
 			.blog-item-text {
 				min-height: 180px;
 				max-height: 180px;
@@ -66,7 +70,7 @@
 			.blog-item-text {
 				h3 {
 					margin-top: 5px;
-					font-size: 28px;
+					font-size: 22px;
 					text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 					line-height: 1.3;
 					font-weight: bold;
@@ -83,83 +87,24 @@
 ///////////////////////////////////////////////////	tablet devices
 @media  (min-width : 768px)  {
 	.blog {
-		position: relative;
-		padding: 0px;
-		margin-bottom: 70px;
-		margin-left: 3%;
-		margin-top: 70px;
-		width: 94.8%;
-		min-height: 680px;
-		border-radius: 5px;
-		background-color: white;
-		box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .1);
-		text-transform: uppercase;
-		p {
-			font-size: 12px;
-			text-transform: none;
-		}
 		.blog-page {
-			text-align: center;
-			padding: 50px;
 			img {
-				width: 70%;
-			}
-			.choose-category {
-				color: rgb(2, 168, 243);
-				font-weight: bold;
-				font-size: 20px;
-				margin-top: 20px;
-			}
-		}
-		.blog-small {
-			margin-bottom: 20px;
-			padding: 0px;
-			background: transparent;
-			.blog-small-item {
-				padding: 0px;
-				ul {
-					li {
-						padding: 7px;
-					}
-				}
+				width: 8%;
 			}
 		}
 		.blog-small-item {
 			.blog-item-2 {
-				min-height: 250px;
-				max-height: 250px;
-				.blog-item-text {
-					min-height: 180px;
-					max-height: 180px;
-					h5 {
-						font-size: 10px;
-					}
-					h4 {
-						margin-top: 15px;
-					}
-				}
-				&:hover {
-					&:before {
-						padding-top: 100px;
-					}
-				}
+				min-height: 270px;
+				max-height: 270px;
 			}
 			.blog-item-3 {
 				.blog-item-2;
 				.blog-item-text {
 					h3 {
-						margin-top: 5px;
-						font-size: 28px;
-						text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-						line-height: 1.3;
-						font-weight: bold;
+						font-size: 25px;
 					}
 				}
 			}
-		}
-		.pagination {
-			padding: 30px;
-			padding-bottom: 50px;
 		}
 	}
 }
@@ -167,167 +112,33 @@
 ///////////////////////////////////////////////////	laptop devices
 @media  (min-width : 996px) {
 	.blog {
-		position: relative;
-		padding: 0px;
-		margin-bottom: 70px;
-		margin-left: 3%;
-		margin-top: 70px;
-		width: 94.8%;
-		min-height: 680px;
-		border-radius: 5px;
-		background-color: white;
-		box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .1);
-		text-transform: uppercase;
-		p {
-			font-size: 12px;
-			text-transform: none;
-		}
 		.blog-page {
-			text-align: center;
-			padding: 50px;
 			img {
-				width: 70%;
+				width: 6%;
 			}
-			.choose-category {
-				color: rgb(2, 168, 243);
-				font-weight: bold;
-				font-size: 20px;
-				margin-top: 20px;
-			}
-		}
-		.blog-small {
-			margin-bottom: 20px;
-			padding: 0px;
-			background: transparent;
-			.blog-small-item {
-				padding: 0px;
-				ul {
-					li {
-						padding: 7px;
-					}
-				}
-			}
-		}
-		.blog-small-item {
-			.blog-item-2 {
-				min-height: 250px;
-				max-height: 250px;
-				.blog-item-text {
-					min-height: 180px;
-					max-height: 180px;
-					h5 {
-						font-size: 10px;
-					}
-					h4 {
-						margin-top: 15px;
-					}
-				}
-				&:hover {
-					&:before {
-						padding-top: 100px;
-					}
-				}
-			}
-			.blog-item-3 {
-				.blog-item-2;
-				.blog-item-text {
-					h3 {
-						margin-top: 5px;
-						font-size: 28px;
-						text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-						line-height: 1.3;
-						font-weight: bold;
-					}
-				}
-			}
-		}
-		.pagination {
-			padding: 30px;
-			padding-bottom: 50px;
 		}
 	}
 }
 
 ///////////////////////////////////////////////////	dekstop devices
-@media  (min-width : 1350px) {
+@media  (min-width : 1280px) {
 	.blog {
-		position: relative;
-		padding: 0px;
-		margin-bottom: 70px;
-		margin-left: 3%;
-		margin-top: 70px;
-		width: 94.8%;
-		min-height: 680px;
-		border-radius: 5px;
-		background-color: white;
-		box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .1);
-		text-transform: uppercase;
-		p {
-			font-size: 12px;
-			text-transform: none;
-		}
-		.blog-page {
-			text-align: center;
-			padding: 50px;
-			img {
-				width: 70%;
-			}
-			.choose-category {
-				color: rgb(2, 168, 243);
-				font-weight: bold;
-				font-size: 20px;
-				margin-top: 20px;
-			}
-		}
-		.blog-small {
-			margin-bottom: 20px;
-			padding: 0px;
-			background: transparent;
-			.blog-small-item {
-				padding: 0px;
-				ul {
-					li {
-						padding: 7px;
-					}
-				}
-			}
-		}
 		.blog-small-item {
+			margin-top: 30px;
 			.blog-item-2 {
-				min-height: 250px;
-				max-height: 250px;
-				.blog-item-text {
-					min-height: 180px;
-					max-height: 180px;
-					h5 {
-						font-size: 10px;
-					}
-					h4 {
-						margin-top: 15px;
-					}
-				}
-				&:hover {
-					&:before {
-						padding-top: 100px;
-					}
-				}
+				position: relative;
+				left: 0;
+				margin-left: 3%;
+				width: 420px;
 			}
 			.blog-item-3 {
 				.blog-item-2;
 				.blog-item-text {
 					h3 {
-						margin-top: 5px;
 						font-size: 28px;
-						text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-						line-height: 1.3;
-						font-weight: bold;
 					}
 				}
 			}
-		}
-		.pagination {
-			padding: 30px;
-			padding-bottom: 50px;
 		}
 	}
 }
