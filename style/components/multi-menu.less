@@ -1,3 +1,4 @@
+////////////////////////////////////////////	default mobile devices
 .multi-menu {
 	/* Menu styles */
 	li {
@@ -215,12 +216,31 @@
 .content {
 	position: relative;
 	min-height: 680px;
-	margin: 0 0 0 300px;
-	padding: 30px;
+	margin: 0 0 0 20px;
+	padding: 10px;
 	padding-left: 0px;
 }
 
 .content--loading {
 	min-height: 680px;
 	background: url("./../../../images/loading.svg") no-repeat 50% 50%;
+}
+
+///////////////////////////////////////////////////	tablet devices
+@media  (min-width : 768px)  {
+	.content {
+		margin: 0 0 0 300px;
+	}
+}
+
+///////////////////////////////////////////////////	laptop devices
+@media  (min-width : 996px) {
+	.content {
+		padding: 0px;
+	}
+}
+
+///////////////////////////////////////////////////	dekstop devices
+@media  (min-width : 1200px) {
+	// not required
 }

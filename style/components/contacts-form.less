@@ -1,7 +1,8 @@
+///////////////////////////////////////// default mobile devioces
 .contacts-form {
 	padding-top: 50px;
+	padding-bottom: 50px;
 	.icon {
-		//////////////////////////////////////////
 		a {
 			transition: all 0.3s;
 			display: inline-block;
@@ -33,8 +34,6 @@
 		padding-top: 90px;
 		form {
 			width: 100%;
-			height: 40px;
-			display: inline-block;
 			fieldset {
 				border: none !important;
 			}
@@ -43,9 +42,9 @@
 				transition: 0.3s;
 				background-color: transparent !important;
 				padding-left: 20px;
-				width: 20%;
+				width: 100%;
 				height: 40px;
-				margin: 5px;
+				margin-top: 10px;
 				border-radius: 25px;
 				border: 3px solid #ddd;
 				&:focus {
@@ -62,7 +61,7 @@
 				margin-top: 10px;
 				padding-left: 20px;
 				padding-top: 20px;
-				width: 43%;
+				width: 100%;
 				border-radius: 10px;
 				height: 200px;
 				border: 3px solid #333;
@@ -105,6 +104,41 @@
 		}
 		.alert {
 			border-color: #333;
+		}
+	}
+}
+
+///////////////////////////////////////////////////	tablet devices
+@media  (min-width : 768px)  {
+	.contacts-form {
+		.form-contacts {
+			form {
+				input {
+					width: 30%;
+					margin: 5px;
+				}
+				textarea {
+					width: 43%;
+				}
+			}
+		}
+	}
+}
+
+///////////////////////////////////////////////////	laptop devices
+@media  (min-width : 996px) {
+	// not required
+}
+
+///////////////////////////////////////////////////	dekstop devices
+@media  (min-width : 1200px) {
+	.contacts-form {
+		.form-contacts {
+			form {
+				input {
+					width: 20%;
+				}
+			}
 		}
 	}
 }

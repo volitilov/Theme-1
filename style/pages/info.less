@@ -1,3 +1,4 @@
+/////////////////////////////////////////////	default mobile devices
 .info {
 	padding: 0px;
 	margin-bottom: 70px;
@@ -9,6 +10,9 @@
 	background-color: white;
 	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .1);
 	text-transform: uppercase;
+	ul {
+		padding: 0px !important;
+	}
 	p {
 		font-size: 12px;
 		text-transform: none;
@@ -16,11 +20,11 @@
 	.example-info-page {
 		text-align: center;
 		padding-top: 50px;
-		padding-left: 150px;
-		padding-right: 150px;
+		padding-left: 0px;
+		padding-right: 0px;
 		img {
 			margin-top: 100px;
-			width: 10%;
+			width: 15%;
 		}
 		.choose-category {
 			font-size: 20px;
@@ -29,13 +33,66 @@
 		}
 	}
 	.content-page-info {
+		text-align: center;
+		margin-top: 30px;
+		padding-left: 10px;
 		ul {
 			margin-top: 50px;
 			list-style: none;
-			padding: 0px;
+			
+			li {
+				img {
+					width: 70%;
+				}
+			}
 		}
 		.bottom-text-info {
 			margin-top: 50px;
+		}
+	}
+}
+
+///////////////////////////////////////////////////	tablet devices
+@media  (min-width : 768px)  {
+	.info {
+		.example-info-page {
+			text-align: center;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.content-page-info {
+			text-align: left;
+			ul {
+				text-align: center;
+			}
+		}
+	}
+}
+
+///////////////////////////////////////////////////	laptop devices
+@media  (min-width : 996px) {
+	.info {
+		.example-info-page {
+			img {
+				width: 6%;
+			}
+		}
+		.content-page-info {
+			margin-top: 0px;
+		}
+	}
+}
+
+///////////////////////////////////////////////////	dekstop devices
+@media  (min-width : 1200px) {
+	.info {
+		.example-info-page {
+			img {
+				width: 6%;
+			}
+		}
+		.content-page-info {
+			padding-left: 30px;
 		}
 	}
 }
