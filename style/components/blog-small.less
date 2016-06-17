@@ -31,14 +31,14 @@
 			max-height: 420px;
 			transition: all 0.3s;
 			background-color: rgba(255, 255, 255, .2);
-			border: 3px solid rgba(0,0,0,.05);
+			border: 3px solid transparent;
+			-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.2);
+			-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.2);
+			box-shadow:0 1px 4px rgba(0, 0, 0, 0.2);
 			border-radius: 4px;
 			overflow: hidden;
 			// word-break: break-all;
 			clear: both;
-			&:hover {
-				box-shadow: none;
-			}
 			.blog-item-cover {
 				position: absolute;
 				top: 0;

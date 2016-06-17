@@ -1,3 +1,4 @@
+/////////////////////////////////////// default mobile devices
 .page-404 {
 	height: 750px;
 	padding: 0px;
@@ -10,9 +11,12 @@
 		z-index: 2;
 		padding: 20px;
 		background: rgb(2, 168, 243);
-		box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+		-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+		-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+		box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 		img {
-			width: 12%;
+			width: 120px;
+			height: 40px;
 		}
 	}
 	.content-404 {
@@ -65,7 +69,7 @@
 				transition: 0.3s;
 				background-color: transparent !important;
 				padding-left: 20px;
-				width: 50%;
+				width: 100%;
 				height: 40px;
 				margin: 3px;
 				border-radius: 25px;
@@ -84,4 +88,27 @@
 		}
 	}
 
+}
+
+///////////////////////////////////////////////////	tablet devices
+@media  (min-width : 768px)  {
+	.page-404 {
+		.content-404 {
+			form {
+				input {
+					width: 50%;
+				}
+			}
+		}
+	}
+}
+
+///////////////////////////////////////////////////	laptop devices
+@media  (min-width : 996px) {
+	// not required
+}
+
+///////////////////////////////////////////////////	dekstop devices
+@media  (min-width : 1350px) {
+	// not required
 }
