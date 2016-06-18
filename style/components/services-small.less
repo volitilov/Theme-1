@@ -1,9 +1,9 @@
 ///////////////////////////////////////////////////	default mobile devices
 .services-small {
-	background: rgba(2, 168, 243, .1); /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1)); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1));
+	background: @color-default-rgba; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, transparent, @color-default-rgba); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, transparent, @color-default-rgba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, transparent, @color-default-rgba);
 	padding-top: 110px;
 	padding-bottom: 110px;
 	color: #333;
@@ -20,7 +20,7 @@
 			text-align: left;
 			h5 {
 				text-transform: uppercase;
-				color: rgb(2, 168, 243);
+				color: @color-default;
 			}
 			ul {
 				padding: 0px;
@@ -30,11 +30,11 @@
 					padding-bottom: 5px;
 				}
 				a {
-					color: rgb(2, 168, 243);
+					color: @color-default;
 					font-size: 20px;
 					&:after {
 						transition: 0.3s;
-						color: rgb(2, 168, 243);
+						color: @color-default;
 						top: -1px;
 						right: -7px;
 						font-size: 10px !important;

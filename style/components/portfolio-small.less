@@ -1,9 +1,9 @@
 ////////////////////////////////////// default mobile devices
 .portfolio-small {
-	background: rgba(2, 168, 243, .1); /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1)); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: linear-gradient(to bottom, transparent, rgba(2, 168, 243, .1));
+	background: @color-default-rgba; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, transparent, @color-default-rgba); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, transparent, @color-default-rgba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, transparent, @color-default-rgba);
 	padding: 15px;
 	padding-left: 15px;
 	padding-top: 80px;
@@ -58,7 +58,7 @@
 						border: 3px solid transparent;
 						&:before {
 							color: white;
-							background-color: rgba(2, 168, 243, .6);
+							background-color: @color-default-rgba-2;
 							box-shadow: 1px 1px 5px rgba(0,0,0,.2);
 							padding-top: 100px;
 							-moz-transform: rotate(-8deg);  /* Firefox */

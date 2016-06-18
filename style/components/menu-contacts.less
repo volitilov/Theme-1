@@ -4,10 +4,10 @@
 	text-align: center;
 	margin-top: -5px;
 	padding: 0px;
-	background-color: rgb(2, 168, 243);
-	-webkit-box-shadow:0 -1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 -1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 -1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	background-color: @color-default;
+	-webkit-box-shadow:0 -1px 4px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow:0 -1px 4px rgba(0, 0, 0, 0.3);
+            box-shadow:0 -1px 4px rgba(0, 0, 0, 0.3);
 	.menu-icon {
 		padding: 30px;
 		a {
@@ -24,12 +24,12 @@
 				border: 3px solid #333;
 				background-color: #333;
 				i {
-					color: rgb(2, 168, 243);
+					color: @color-default;
 				}
 			}
 		}
 		.contact {
-			color: rgb(2, 168, 243);
+			color: @color-default;
 			transition: all 0.3s;
 			width: 120px;
 			font-size: 12px;
@@ -43,12 +43,11 @@
 			padding-right: 25px;
 			&:after {
 				transition: all 0.3s;
-				color: rgb(2, 168, 243);
+				color: @color-default;
 				top: -2px;
 				right: -10px;
 				font-size: 8px !important;
 				display: inline-block;
-				font-family: AC AppleIcons;
 				position: relative;
 				z-index: 1;
 				content: "❯";
@@ -125,7 +124,7 @@
 				width: 90px;
 				height: 40px;
 				border: none;
-				color: rgb(2, 168, 243);
+				color: @color-default;
 				transition: 0.3s;
 				font-size: 15px;
 				font-weight: bold;
@@ -136,12 +135,11 @@
 				border-radius: 25px;
 				&:after {
 					transition: all 0.3s;
-					color: rgb(2, 168, 243);
+					color: @color-default;
 					top: -2px;
 					right: -10px;
 					font-size: 8px !important;
 					display: inline-block;
-					font-family: AC AppleIcons;
 					position: relative;
 					z-index: 1;
 					content: "❯";
@@ -189,7 +187,7 @@
 					border: 3px solid #333;
 					background-color: #333;
 					i {
-						color: rgb(2, 168, 243);
+						color: @color-default;
 					}
 				}
 			}

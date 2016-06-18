@@ -3,9 +3,9 @@
 	border: none;
 	padding: 0px;
 	background-color: @color-default;
-	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
 	width: 100%;
 	height: 55px;
 	position: fixed;
@@ -99,7 +99,7 @@
 				margin-left: 31%;
 				width: 38%;
 				text-align: center;
-				color: rgb(2, 168, 243);
+				color: @color-default;
 				transition: all 0.3s;
 				font-size: 10px;
 				font-weight: bold;
@@ -112,7 +112,7 @@
 				
 				&:after {
 					transition: all 0.3s;
-					color: rgb(2, 168, 243);
+					color: @color-default;
 					top: -2px;
 					right: -10px;
 					font-size: 8px !important;

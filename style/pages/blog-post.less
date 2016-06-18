@@ -44,7 +44,7 @@
 			display: inline-block;
 			width: 35px;
 			height: 35px;
-			border: 3px solid rgb(2, 168, 243);
+			border: 3px solid @color-default;
 			border-radius: 50%;
 			padding-top: 8px;
 			margin: 5px;
@@ -59,7 +59,7 @@
 		i {
 			transition: all 0.3s;
 			font-size: 13px;
-			color: rgb(2, 168, 243);
+			color: @color-default;
 		}
 	}
 	.pager {
@@ -75,7 +75,7 @@
 			.next {
 				&:after {
 					transition: all 0.3s;
-					color: rgb(2, 168, 243);
+					color: @color-default;
 					top: 0px;
 					right: -1px;
 					font-size: 12px;
@@ -140,7 +140,7 @@
 			cursor: pointer;
 			&:before {
 				color: white;
-				background-color: rgba(2, 168, 243, .6);
+				background-color: @color-default-rgba-2;
 				box-shadow: 1px 1px 5px rgba(0,0,0,.2);
 				padding: 60px;
 				-moz-transform: rotate(-8deg);  /* Firefox */
@@ -164,12 +164,12 @@
 				a {
 					border: 1px solid transparent;
 					border-radius: 4px;
-					color: rgb(2, 168, 243);
+					color: @color-default;
 					font-size: 10px;
 					background-color: rgba(0, 0, 0, .06);
 					padding: 6px 13px;
 					&:hover {
-						border: 1px solid rgb(2, 168, 243);
+						border: 1px solid @color-default;
 					}
 				}
 			}
@@ -181,7 +181,7 @@
 		padding: 20px;
 		padding-top: 30px;
 		a {
-			color: rgb(2, 168, 243);
+			color: @color-default;
 			font-weight: bold;
 			&:hover {
 				text-decoration: underline !important;
@@ -199,7 +199,7 @@
 				span {
 					font-size: 11px;
 					a {
-						color: rgb(2, 168, 243);
+						color: @color-default;
 						margin-left: 10px;
 					}
 				}
@@ -258,7 +258,7 @@
 					}
 					input::-webkit-input-placeholder,
 					textarea::-webkit-input-placeholder {
-						color: rgb(2, 168, 243);
+						color: @color-default;
 					}
 					textarea {
 						color: #333;
@@ -269,7 +269,7 @@
 						width: 100%;
 						height: 40px;
 						border-radius: 25px !important;
-						border: 3px solid rgb(2, 168, 243);
+						border: 3px solid @color-default;
 						&:focus {
 							height: 100px;
 							border-radius: 6px !important;
@@ -285,7 +285,7 @@
 						transition: 0.3s;
 						font-size: 14px;
 						font-weight: bold;
-						background-color: rgb(2, 168, 243);
+						background-color: @color-default;
 						border-radius: 4px;
 						box-shadow: 1px 1px 5px rgba(0,0,0,.2);
 						text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
