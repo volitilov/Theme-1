@@ -34,7 +34,136 @@
 
 <body>
 	<main>
-		<%- yield %>
+
+		<div class="col-xs-12 page-404">
+			<div class="col-xs-12 logo-company">
+				<a href="/"><img src="/images/start-page.png"/></a>
+			</div>
+			<div class="col-xs-12 content-404">
+				<h1>404</h1>
+				<h4>Page not found</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Earum quibusdam cupiditate ipsum a dolor quia placeat, quidem quas obcaecati <br>aliquid assumenda pariatur mollitia impedit laudantium necessitatibus <br>aut aspernatur ducimus at?</p>
+				<a href="#">Back to home</a>
+				<p class="or">or</p>
+				<form action="search-page" method="POST">
+					<input type="text" placeholder="search on this sites" required/>
+				</form>
+			</div>
+		</div>
+
+		<!-- ///////////// component footer ////////////////// -->
+		<section>
+			<footer class="col-xs-12">
+				<svg fill="rgb(2, 168, 243)" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+					<path d="M0 50 L100 50 L50 0 Z" />
+				</svg>
+				<div class="col-xs-12 footer-logo">
+					<img src="/images/start-page.png" />
+				</div>
+
+				<!-- ///////////// component menu-contact ////////////////// -->
+				<section>
+					<div class="col-xs-12 menu-contacts">
+						<div class="col-xs-12 col-md-7 menu-icon">
+							<!-- <a href="#"><i class="fa fa-github"></i></a> -->
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-pinterest-p"></i></a> -->
+							<a href="#"><i class="fa fa-youtube"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-odnoklassniki"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<!-- <a href="#"><i class="fa fa-codepen"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-bitbucket"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-behance"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-dribbble"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-tumblr"></i></a> -->
+							<a href="#"><i class="fa fa-vk"></i></a>
+							<!-- <a href="#"><i class="fa fa-whatsapp"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-vimeo"></i></a> -->
+							<a href="contacts" class="contact">contacts</a>
+						</div>
+						<div class="col-xs-12 col-md-5 newsletter">
+							<form method="POST">
+								<fieldset>
+									<label>
+										<input type="email" name="email" placeholder="@ email adres *" />
+									</label>
+									<legend>newsletter</legend>
+								</fieldset>
+								<fieldset>
+									<label>
+										<button type="submit">OK</button>
+									</label>
+									<!-- <legend>Submit</legend> -->
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</section>
+				
+				<div class="col-xs-12 footer-body">
+					<div class="col-xs-12 col-md-7 site-map">
+						<h5>Site map:</h5>
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="info">Info</a></li>
+							<li><a href="portfolio">Portfolio</a></li>
+							<li><a href="services">Services</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Shop</a></li>
+							<li><a href="blog">Blog</a></li>
+							<li><a href="contact">Contacts</a></li>
+							<li><a href="#">Sitemap</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Product</a></li>
+							<li><a href="#">Experience</a></li>
+							<li><a href="#">About us</a></li>
+							<li><a href="signup">Sign up</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Press kit</a></li>
+							<li><a href="#">Investors</a></li>
+							<li><a href="#">For press</a></li>
+							<li><a href="#">Partnership</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-md-5 shop-locator text-right">
+						<h5>We accept all popular payment methods:</h5>
+						<ul>
+							<li><i class="fa fa-cc-amex"></i></li>
+							<li><i class="fa fa-cc-mastercard"></i></li>
+						</ul>
+						<ul>
+							<li><i class="fa fa-cc-diners-club"></i></li>
+							<li><i class="fa fa-cc-paypal"></i></li>
+						</ul>
+						<ul>
+							<li><i class="fa fa-cc-jcb"></i></li>
+							<li><i class="fa fa-cc-visa"></i></li>
+						</ul>
+						<ul>
+							<li><i class="fa fa-cc-discover"></i></li>
+							<li><i class="fa fa-cc-stripe"></i></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 bottom-text">
+					<div class="col-xs-12 col-md-7 copyright">
+						<p>© 2016  All rights reserved. Design and development by <a href="#">volitilov</a></p>
+					</div>
+					<div class="col-xs-12 col-md-5 dop-info-footer">
+						<a class="ac-gf" href="#" title="Language"><img src="/images/flag_large.png"/>Россия</a>
+						<a href="#">Terms & Conditions</a>
+						<a href="#">Privacy policy</a>
+					</div>
+				</div>  
+			</footer>
+		</section>
+
 	</main>
 	
 	<!--[if lt IE 9]>
@@ -43,13 +172,6 @@
 	<script src="js/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="js/respond/respond.min.js"></script>
 	<![endif]-->
-
-	<!-- Load Scripts -->
-	<script src="js/components/multi-menu/modernizr-custom.js"></script>
-	<script src="js/components/multi-menu/classie.js"></script>
-	<script src="js/components/multi-menu/dummydata.js"></script>
-	<script src="js/components/multi-menu/main.js"></script>
-	<script src="js/components/multi-menu/index.js"></script>
 	
 	<!-- Load Scripts -->
 	<script>var scr = {"scripts":[

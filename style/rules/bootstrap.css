@@ -149,7 +149,7 @@ svg:not(:root) {
   box-sizing: border-box;
 }
 a {
-  color: @color-default;
+  color: rgb(2, 168, 243);
   text-decoration: none;
 }
 a:hover,
@@ -294,7 +294,7 @@ p {
   padding-bottom: 50px;
   border-radius: 4px;
   box-shadow: 1px 1px 2px rgba(0,0,0,.2);
-  background-color: @color-default;
+  background-color: rgb(2, 168, 243);
   -webkit-overflow-scrolling: touch;
 }
 .navbar-collapse.in {
