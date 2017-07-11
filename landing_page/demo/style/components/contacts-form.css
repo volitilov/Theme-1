@@ -1,0 +1,125 @@
+.contacts-form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contacts-form .icon a {
+  transition: all 0.3s;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #02a8f3;
+  border-radius: 50%;
+  background-color: #02a8f3;
+  padding-top: 9px;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+.contacts-form .icon a:hover {
+  border: 3px solid #333;
+  background-color: #333;
+}
+.contacts-form .icon a:hover i {
+  color: white;
+}
+.contacts-form .icon i {
+  transition: all 0.3s;
+  font-size: 15px;
+  color: white;
+}
+.contacts-form .form-contacts {
+  padding: 0px;
+  padding-top: 90px;
+}
+.contacts-form .form-contacts form {
+  width: 100%;
+}
+.contacts-form .form-contacts form fieldset {
+  border: none !important;
+}
+.contacts-form .form-contacts form input {
+  color: #333;
+  transition: 0.3s;
+  background-color: transparent !important;
+  padding-left: 20px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: 3px solid #ddd;
+}
+.contacts-form .form-contacts form input:focus {
+  border-radius: 6px;
+  border: 3px solid #02a8f3;
+  -webkit-appearance: caps-lock-indicator;
+  outline: none;
+}
+.contacts-form .form-contacts form textarea {
+  color: #333;
+  transition: 0.3s;
+  background-color: transparent !important;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  border: 3px solid #333;
+}
+.contacts-form .form-contacts form textarea:focus {
+  border-radius: 6px;
+  border: 3px solid #02a8f3;
+  -webkit-appearance: caps-lock-indicator;
+  outline: none;
+}
+.contacts-form .form-contacts form input::-webkit-input-placeholder,
+.contacts-form .form-contacts form textarea::-webkit-input-placeholder {
+  color: #02a8f3;
+}
+.contacts-form .form-contacts form input::-webkit-outer-spin-button,
+.contacts-form .form-contacts form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+.contacts-form .form-contacts form legend {
+  display: none;
+}
+.contacts-form .form-contacts form button {
+  margin-top: 10px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #02a8f3;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+}
+.contacts-form .form-contacts form button:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+.contacts-form .form-contacts .alert {
+  border-color: #333;
+}
+@media (min-width: 768px) {
+  .contacts-form .form-contacts form input {
+    width: 30%;
+    margin: 5px;
+  }
+  .contacts-form .form-contacts form textarea {
+    width: 43%;
+  }
+}
+@media (min-width: 996px) {
+}
+@media (min-width: 1200px) {
+  .contacts-form .form-contacts form input {
+    width: 20%;
+  }
+}

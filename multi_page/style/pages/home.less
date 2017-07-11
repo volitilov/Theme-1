@@ -1,0 +1,107 @@
+.Home {
+	margin-top: 70px;
+	background: #02a8f3;
+	padding: 0px;
+	.widjet-carousel {
+		display: block;
+		padding: 20px 170px;
+		.carousel-inner {
+			padding: 0px;
+			min-height: 800px;
+			.item  {
+				height: auto;
+			}
+			.carousel-caption {
+				display: block;
+			}
+		}
+	}
+	.carousel-control {
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 100px;
+		img {
+			width: 40%;
+		}
+	}
+	.right, .left {
+		padding-top: 300px;
+	}
+	.right {
+		left: auto;
+		right: 0;
+		bottom: 0;
+	}
+	// widjet-carousel item 1
+	.start-info {
+		background-color: rgba(0, 0, 0, .1);
+		border-radius: 6px;
+		padding: 100px 80px;
+		padding-bottom: 30px;
+		.main-images {
+			width: 230px;
+			border-radius: 6px;
+			border: 4px solid #000;
+			text-align: center;
+			background-image: url('/images/d-wave.gif');
+
+		}
+		a {
+			display: inline-block;
+			margin-top: 20px;
+			text-align: center;
+			color: #02a8f3;
+			transition: all 0.3s;
+			background-color: #000;
+			border-radius: 4px;
+			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+			padding: 15px;
+			padding-left: 20px;
+			padding-right: 30px;
+			text-transform: uppercase;
+			&:after {
+				transition: all 0.3s;
+				color: #02a8f3;
+				top: -2px;
+				right: -10px;
+				font-size: 8px !important;
+				display: inline-block;
+				position: relative;
+				z-index: 1;
+				content: "❯";
+			}
+			&:hover:after {
+				right: -15px;
+			}
+		}
+		h2 {
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+		.mouse {
+			margin-top: 200px;
+		}
+	}
+}
+
+
+
+
+@media (min-width: 768px) {
+	.Home {
+		.carousel-control {
+			width: 155px !important;
+			img {
+				width: 30%;
+			}
+		}
+		.right, .left {
+			padding-top: 320px;
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+	}
+}

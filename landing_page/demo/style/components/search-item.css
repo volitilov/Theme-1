@@ -1,0 +1,142 @@
+.search-item {
+  transition: all 0.2s;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0px;
+  text-align: center;
+}
+.search-item a {
+  margin-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-radius: 4px;
+  border: 1px solid #02a8f3;
+  display: block;
+}
+.search-item a .image-item {
+  border-radius: 4px;
+  margin-right: 10px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjYwcHgiIGhlaWdodD0iNDAwcHgiIHZpZXdCb3g9IjAgMCA2NjAgNDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2NjAgNDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGZpbGw9IiNGNUY1RjUiIHdpZHRoPSI2NjAiIGhlaWdodD0iNDAwIi8+DQo8ZyBvcGFjaXR5PSIwLjciPg0KCTxwYXRoIGZpbGw9IiNEOEQ4RDgiIGQ9Ik0yNTguMTg0LDE0My41djExM2gxNDMuNjMydi0xMTNIMjU4LjE4NHogTTM5MC4yNDQsMjQ0LjI0N0gyNzAuNDM3di04OC40OTRoMTE5LjgwOEwzOTAuMjQ0LDI0NC4yNDcNCgkJTDM5MC4yNDQsMjQ0LjI0N3oiLz4NCgk8cG9seWdvbiBmaWxsPSIjRDhEOEQ4IiBwb2ludHM9IjI3Ni44ODEsMjM0LjcxNyAzMDEuNTcyLDIwOC43NjQgMzEwLjgyNCwyMTIuNzY4IDM0MC4wMTYsMTgxLjY4OCAzNTEuNTA1LDE5NS40MzQgDQoJCTM1Ni42ODksMTkyLjMwMyAzODQuNzQ2LDIzNC43MTcgCSIvPg0KCTxjaXJjbGUgZmlsbD0iI0Q4RDhEOCIgY3g9IjMwNS40MDUiIGN5PSIxNzguMjU3IiByPSIxMC43ODciLz4NCjwvZz4NCjwvc3ZnPg0K");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  padding: 0px;
+}
+.search-item a .image-item img {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+.search-item a .text-item {
+  margin-top: 130px;
+  margin-bottom: 30px;
+  max-height: 100px;
+  display: block;
+}
+.search-item a .text-item h5 {
+  color: #02a8f3;
+}
+.search-item a .text-item p {
+  font-size: 12px;
+  color: #333;
+}
+.search-item a:after {
+  transition: all 0.3s;
+  color: #333;
+  top: 40px;
+  right: 0px;
+  font-size: 12px;
+  color: #02a8f3;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  content: "reed";
+}
+@media (min-width: 768px) {
+  .search-item {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .search-item a {
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .search-item a:after {
+    transition: all 0.3s;
+    color: #333;
+    top: 20px;
+    right: 0px;
+    font-size: 12px;
+    color: #02a8f3;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    content: "reed";
+  }
+}
+@media (min-width: 996px) {
+  .search-item {
+    padding: 15px;
+  }
+  .search-item a {
+    display: inline-block;
+    padding: 20px;
+  }
+  .search-item a .image-item {
+    padding: 0px;
+    position: relative;
+    left: 0;
+    margin-left: 0px;
+  }
+  .search-item a .text-item {
+    float: right;
+    text-align: left;
+    margin-top: 0px;
+    width: 450px;
+    display: block;
+  }
+  .search-item a:after {
+    top: 150px;
+    left: 420px;
+    font-size: 13px;
+    color: #02a8f3;
+    position: absolute;
+    content: "reed";
+  }
+}
+@media (min-width: 1200px) {
+  .search-item {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .search-item a {
+    margin-bottom: -2px;
+    border-color: transparent;
+    border-top: 1px solid #ddd;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 30px;
+  }
+  .search-item a:hover {
+    border: 1px solid #02a8f3;
+  }
+  .search-item a .text-item {
+    width: 85%;
+  }
+  .search-item a:after {
+    top: 120px;
+    left: 730px;
+    font-size: 13px;
+    color: #02a8f3;
+    position: absolute;
+    content: "reed";
+  }
+}

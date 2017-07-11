@@ -1,0 +1,149 @@
+.form-sign-up {
+  background-color: white;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0.5%;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.form-sign-up a {
+  color: #02a8f3;
+  font-size: 12px;
+}
+.form-sign-up a:after {
+  transition: all 0.3s;
+  color: #02a8f3;
+  top: -2px;
+  right: -7px;
+  font-size: 5px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  content: "❯";
+}
+.form-sign-up a:hover {
+  text-decoration: underline !important;
+}
+.form-sign-up a:hover:after {
+  right: -12px;
+}
+.form-sign-up .form {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+.form-sign-up .form form {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.form-sign-up .form form fieldset {
+  border: none !important;
+}
+.form-sign-up .form form input {
+  color: #333;
+  transition: 0.3s;
+  background-color: transparent !important;
+  padding-left: 20px;
+  width: 100%;
+  height: 40px;
+  margin: 3px;
+  border-radius: 25px;
+  border: 3px solid #333;
+}
+.form-sign-up .form form input:focus {
+  border-radius: 6px;
+  border: 3px solid #02a8f3;
+  -webkit-appearance: caps-lock-indicator;
+  outline: none;
+}
+.form-sign-up .form form textarea {
+  color: #333;
+  transition: 0.3s;
+  background-color: transparent !important;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 42%;
+  border-radius: 10px;
+  height: 200px;
+  border: 3px solid #333;
+}
+.form-sign-up .form form textarea:focus {
+  border-radius: 6px;
+  border: 3px solid #02a8f3;
+  -webkit-appearance: caps-lock-indicator;
+  outline: none;
+}
+.form-sign-up .form form input::-webkit-input-placeholder,
+.form-sign-up .form form textarea::-webkit-input-placeholder {
+  color: #02a8f3;
+}
+.form-sign-up .form form legend {
+  display: none;
+}
+.form-sign-up .form form button {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #02a8f3;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+}
+.form-sign-up .form form button:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+.form-sign-up .soc-sign {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+}
+.form-sign-up .soc-sign a {
+  transition: all 0.3s;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #02a8f3;
+  border-radius: 50%;
+  padding-top: 7px;
+  margin-right: 5px;
+  text-align: center;
+}
+.form-sign-up .soc-sign a:after {
+  display: none;
+}
+.form-sign-up .soc-sign a:hover {
+  border: 3px solid #333;
+}
+.form-sign-up .soc-sign a:hover i {
+  color: #333;
+}
+.form-sign-up .soc-sign i {
+  transition: all 0.3s;
+  font-size: 15px;
+  color: #02a8f3;
+}
+@media (min-width: 768px) {
+  .form-sign-up {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 25%;
+  }
+}
+@media (min-width: 981px) {
+  .form-sign-up {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 33.33333333%;
+  }
+}

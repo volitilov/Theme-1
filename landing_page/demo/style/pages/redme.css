@@ -1,0 +1,135 @@
+.redme {
+	padding: 0px;
+}
+.redme li {
+	font-size: 13px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.redme p {
+	font-size: 13px;
+	color: #333;
+}
+.redme .head-instruction {
+	z-index: 5;
+	padding: 30px;
+	background-color: #02a8f3;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+.redme .head-instruction img {
+	border-radius: 50%;
+}
+.redme .head-instruction p {
+	font-size: 14px;
+	color: #333;
+}
+.redme .menu-icon a {
+  transition: all 0.3s;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #333;
+  border-radius: 50%;
+  padding-top: 9px;
+  margin: 5px;
+  text-align: center;
+  float: right;
+}
+.redme .menu-icon i {
+	font-size: 15px;
+	color: #333;
+}
+.redme .menu-icon a:hover {
+  border: 3px solid #333;
+  background-color: #333;
+}
+.redme .menu-icon a:hover i {
+  color: #02a8f3;
+}
+.redme .body-instruction {
+	padding: 50px;
+	padding-top: 0px;
+}
+.redme .content-instruction {
+	z-index: 4;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 20px;
+	padding-left: 100px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	margin-top: -3px;
+}
+.redme .redme-text-1 {
+	z-index: 3;
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: -3px;
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.redme-text-1 p {
+	margin-top: 15px;
+}
+
+.redme .redme-text-2 {
+	z-index: 2;
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: -3px;
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.redme .redme-text-2 ul {
+	display: inline-block;
+	margin-right: 100px;
+}
+.redme .redme-text-3 {
+	z-index: 1;
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: -3px;
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.redme .redme-text-4 {
+	z-index: 0;
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: -3px;
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.redme .footer-instruction {
+	z-index: 5;
+	padding: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: #02a8f3;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+.redme .footer-instruction img {
+	width: 20%;
+}
