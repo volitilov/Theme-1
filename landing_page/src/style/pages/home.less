@@ -50,33 +50,19 @@
 
 		}
 		a {
+			transition: 0.3s;
 			display: inline-block;
 			margin-top: 20px;
 			text-align: center;
 			color: #02a8f3;
 			transition: all 0.3s;
-			background-color: #000;
+			background-image: url('/images/d-wave.gif');
+			background-size: cover;
 			border-radius: 4px;
 			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-			padding: 15px;
-			padding-left: 20px;
-			padding-right: 30px;
+			padding: 15px 20px;
 			text-transform: uppercase;
-			&:after {
-				transition: all 0.3s;
-				color: #02a8f3;
-				top: -2px;
-				right: -10px;
-				font-size: 8px !important;
-				display: inline-block;
-				position: relative;
-				z-index: 1;
-				content: "❯";
-			}
-			&:hover:after {
-				right: -15px;
-			}
 		}
 		h2 {
 			margin-top: 0px;

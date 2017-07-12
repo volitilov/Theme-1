@@ -6,11 +6,13 @@ function addScript(src) {
 }
 
 // main scripts ::::::::::::::::::::::::::::::::::::
-addScript('/js/bootstrap.js');
-addScript('/js/jquery.min.js');
+addScript('/js/vendor/bootstrap.js');
+addScript('/js/vendor/jquery-1.12.4.min.js');
 
 // my_scripts ::::::::::::::::::::::::::::::::::::::
 
 
 // vidjets_scripts :::::::::::::::::::::::::::::::::
 addScript('/js/widjets/carousel.js');
+addScript('/js/widjets/facts.js');
+addScript('/js/widjets/scrollUp.js');
