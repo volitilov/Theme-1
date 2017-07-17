@@ -442,7 +442,7 @@ p {
 .carousel {
   position: relative;
 }
-.carousel-inner {
+.carousel-inner{
   position: relative;
   overflow: hidden;
  

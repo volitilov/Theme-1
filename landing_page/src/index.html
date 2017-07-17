@@ -42,7 +42,7 @@
 				<p class="navbar-text">Design and development</p>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a  class="active" href="/" title="home">Home</a></li>
+						<li><a  class="active" href="#home" title="home">Home</a></li>
 						<li><a href="#info" title="info">About</a></li>
 						<li><a href="#portfolio" title="portfolio">Portfolio</a></li>
 						<li><a href="#services" title="services">Services</a></li>
@@ -54,7 +54,7 @@
 
 		<!-- ///////////// component slide ////////////////// -->
 		<section>
-			<div class="col-xs-12 Home">
+			<div class="col-xs-12 Home" id="home">
 				<div class="col-md-12 widjet-carousel">
 
 					<!-- Wrapper for slides -->
@@ -63,7 +63,7 @@
 						<div class="item active animated fadeIn">
 							<div class="col-xs-12 carousel-caption start-info">
 								<div class="col-md-4">
-									<div class="main-images">
+									<div class="main-images animated bounceIn">
 										<img src="/images/oti][ito-image-blue.png"/>
 									</div>
 								</div>
@@ -84,43 +84,9 @@
 						</div>
 						<div class="item animated fadeIn">
 							<div class="carousel-caption">
-								<div class="col-xs-12 facts-box text-center">
-									<div class="col-xs-12 facts-description">
-										<img src="/images/facts.svg" />
-										<h4>What are the results of our efforts ?</h4>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Voluptatibus necessitatibus soluta qui vitae earum veniam, blanditiis officia hic tenetur.</p>
-									</div>
-									<div class="col-xs-12 facts">
-										<ul class="col-xs-12 text-center">
-											<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
-												<h3>687</h3>
-												<p>Completed Projects</p>
-											</li>
-
-											<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
-												<h3>142</h3>
-												<p>Happy Clients</p>
-											</li>
-
-											<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
-												<h3>742</h3>
-												<p>Total Download</p>
-											</li>
-
-											<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
-												<h3>1548</h3>
-												<p>Cup Of Coffee</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item animated fadeIn">
-							<div class="carousel-caption">
 								<div class="col-xs-12 advantages text-center">
 									<div class="col-xs-12 advantages-description">
-										<img src="/images/advantages.svg" />
+										<img src="/images/advantages.svg" class="animated bounceIn" />
 										<h4>What makes us different from others ?</h4>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 									</div>
@@ -214,10 +180,10 @@
 
 					<!-- Controls -->
 					<a class="left carousel-control" href="#" role="button">
-						<span><img class="animated fadeInLeft infinite" src="/images/left.svg" /></span>
+						<span><img src="/images/left.svg" /></span>
 					</a>
 					<a class="right carousel-control" href="#" role="button">
-						<span><img class="animated fadeInRight infinite" src="/images/right.svg" /></span>
+						<span><img src="/images/right.svg" /></span>
 					</a>
 				</div>
 			</div>
@@ -234,7 +200,38 @@
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod recusandae minus, perspiciatis eius cupiditate qui, consectetur id rerum consequuntur iusto repellat laborum ipsam nostrum eaque quidem deleniti ab consequatur, harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi consequatur, sequi, ratione voluptatem, hic qui saepe necessitatibus quo dolorem quasi ad ut totam voluptates quas impedit aliquid sint quibusdam facilis.</p>
 					</div>
+					<div class="col-xs-12 facts-box text-center">
+						<div class="col-xs-12 facts-description">
+							<h4>What are the results of our efforts ?</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Voluptatibus necessitatibus soluta qui vitae earum veniam, blanditiis officia hic tenetur.</p>
+						</div>
+						<div class="col-xs-12 facts">
+							<ul class="col-xs-12 text-center">
+								<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
+									<h3>687</h3>
+									<p>Completed Projects</p>
+								</li>
+
+								<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
+									<h3>142</h3>
+									<p>Happy Clients</p>
+								</li>
+
+								<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
+									<h3>742</h3>
+									<p>Total Download</p>
+								</li>
+
+								<li class="col-xs-6 col-sm-4 col-md-3 facts-item">
+									<h3>1548</h3>
+									<p>Cup Of Coffee</p>
+								</li>
+							</ul>
+						</div>
+					</div>
 					<div class="col-xs-12 dop-content">
+						<h4>What are the results of our efforts ?</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Voluptatibus necessitatibus soluta qui vitae earum veniam, blanditiis officia hic tenetur.</p>
 						<div class="col-xs-12 col-md-4 info-small-item">
 							<span class="dop-content-img">
 								<!-- foto img heare -->
@@ -296,51 +293,72 @@
 				<div class="col-xs-12 portfolio-small-item">
 					<div class="col-xs-12 portfolio-nav">
 						<ul>
-							<li><a href="#" class="active">All</a></li>
-							<li><a href="#">Web design</a></li>
-							<li><a href="#">Development</a></li>
-							<li><a href="#">Branding</a></li>
-							<li><a href="#">App design</a></li>
+							<li><a href="#" class="active" id="All">All</a></li>
+							<li><a href="#" id="webDesign">Web design</a></li>
+							<li><a href="#" id="development">Development</a></li>
+							<li><a href="#" id="branding">Branding</a></li>
+							<li><a href="#" id="appDesign">App design</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 portfolio-items">
 						<ul>
-							<li class="col-xs-12 col-sm-6 col-md-4">
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn AppDesign">
 								<a href="#">
 									<div class="col-xs-12 ex-portfolio">
 										<!-- image heare -->
 									</div>
 								</a>
 							</li>
-							<li class="col-xs-12 col-sm-6 col-md-4">
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn Branding">
 								<a href="#">
 									<div class="col-xs-12 ex-portfolio">
 										<!-- image heare -->
 									</div>
 								</a>
 							</li>
-							<li class="col-xs-12 col-sm-6 col-md-4">
+							<li class="col-xs-12 col-sm-6 col-md-4  animated bounceIn Development">
 								<a href="#">
 									<div class="col-xs-12 ex-portfolio">
 										<!-- image heare -->
 									</div>
 								</a>
 							</li>
-							<li class="col-xs-12 col-sm-6 col-md-4">
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn Branding">
 								<a href="#">
 									<div class="col-xs-12 ex-portfolio">
 										<!-- image heare -->
 									</div>
 								</a>
 							</li>
-							<li class="col-xs-12 col-sm-6 col-md-4">
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn AppDesign">
 								<a href="#">
 									<div class="col-xs-12 ex-portfolio">
 										<!-- image heare -->
 									</div>
 								</a>
 							</li>
-							<li class="col-xs-12 col-sm-6 col-md-4">
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn Development">
+								<a href="#">
+									<div class="col-xs-12 ex-portfolio">
+										<!-- image heare -->
+									</div>
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn WebDesign">
+								<a href="#">
+									<div class="col-xs-12 ex-portfolio">
+										<!-- image heare -->
+									</div>
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn AppDesign">
+								<a href="#">
+									<div class="col-xs-12 ex-portfolio">
+										<!-- image heare -->
+									</div>
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6 col-md-4 animated bounceIn WebDesign">
 								<a href="#">
 									<div class="col-xs-12 ex-portfolio">
 										<!-- image heare -->
@@ -483,6 +501,85 @@
 			</div>
 		</section>
 
+		<!-- ///////////// component reviews ////////////////// -->
+		<section>
+			<div class="col-xs-12 reviews">
+				<div class="col-xs-12 block-mesage">
+					<img src="/images/icons/people.svg" alt="" />
+					<h5>What they say about us?</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-xs-12 widjet-carousel2">
+					<ul class="col-xs-12 carousel-inner2">
+						<li class="item active animated bounceInRight">
+							<div class="col-xs-3 reviews-img"></div>
+							<div class="col-xs-9 reviews-body">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>
+								</ul>
+								<h4>Andre Dortine</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</li>
+						<li class="item animated bounceInRight">
+							<div class="col-xs-3 reviews-img"></div>
+							<div class="col-xs-9 reviews-body">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>
+								</ul>
+								<h4>Andre Dortine 2</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</li>
+						<li class="item animated bounceInRight">
+							<div class="col-xs-3 reviews-img"></div>
+							<div class="col-xs-9 reviews-body">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>
+								</ul>
+								<h4>Andre Dortine 3</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</li>
+					</ul>
+
+					<a class="left carousel-control" href="#" role="button">
+						<span><img src="/images/left.svg" /></span>
+					</a>
+					<a class="right carousel-control" href="#" role="button">
+						<span><img src="/images/right.svg" /></span>
+					</a>
+				</div>
+			</div>
+		</section>
+
 		<!-- ///////////// component footer ////////////////// -->
 		<footer>
 			<div class="col-xs-12 menu-icons">
@@ -539,7 +636,11 @@
 				<span><a href="#">Pythman</a></span>
 			</div>  
 		</footer>
-		<a id="scrollUp" href="#"><i class="fa fa-angle-up"></i></a>
+		<a id="scrollUp" href="#">
+			<i class="fa fa-angle-up"></i>
+			<i class="fa fa-angle-up"></i>
+			<i class="fa fa-angle-up"></i>
+		</a>
 	</main>
 	
 	<!--[if lt IE 9]>

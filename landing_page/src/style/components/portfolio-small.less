@@ -18,24 +18,29 @@
 			li {
 				display: inline-block;
 				a {
+					border-radius: 4px;
+					border: 2px solid transparent;
 					font-size: 15px;
 					text-transform: uppercase;
 					color: rgb(2, 168, 243);
-					padding: 0px 10px;
+					padding: 7px 15px;
 					display: inline-block;
 					&:hover {
 						color: #000;
+						border: 2px solid #000;
 					}
 				}
 				.active {
 					color: #000;
+					border: 2px solid #000;
 				}
 			}
 		}
 		.portfolio-items {
 			li {
 				padding: 10px;
-				display: inline-block;
+				display: none;
+				transition: 2s;
 				.ex-portfolio {
 					transition: all 0.3s;
 					padding: 0px;
