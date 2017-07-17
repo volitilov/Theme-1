@@ -19,3 +19,4 @@ addScript('/js/widjets/facts.js');
 addScript('/js/widjets/scrollUp.js');
 addScript('/js/widjets/portfolio.js');
 addScript('/js/widjets/headLinkActive.js');
+addScript('/js/widjets/number_separator.js');
