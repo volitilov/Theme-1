@@ -5,6 +5,7 @@
 	.widjet-carousel {
 		display: block;
 		padding: 20px 170px;
+		padding-bottom: 0px;
 		.carousel-inner {
 			padding: 0px;
 			min-height: 800px;
@@ -37,17 +38,13 @@
 	}
 	// widjet-carousel item 1
 	.start-info {
-		background-color: rgba(0, 0, 0, .1);
+		// background-color: rgba(0, 0, 0, .1);
 		border-radius: 6px;
 		padding: 100px 80px;
-		padding-bottom: 30px;
-		.main-images {
-			width: 230px;
-			border-radius: 6px;
-			border: 4px solid #000;
-			text-align: center;
-			background-image: url('/images/d-wave.gif');
-
+		padding-bottom: 50px;
+		span {
+			display: block;
+			margin-top: 50px;
 		}
 		a {
 			transition: 0.3s;
@@ -69,7 +66,10 @@
 			margin-bottom: 20px;
 		}
 		.mouse {
-			margin-top: 200px;
+			margin-top: 50px;
+			img {
+				width: 100%;
+			}
 		}
 	}
 }
