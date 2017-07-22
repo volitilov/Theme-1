@@ -34,18 +34,20 @@
 		}
 	}
 	.navbar-text {
+		display: none;
 		padding: 17px;
 		color: #fff;
 	}
 	.navbar-right {
+		text-align: center;
 		a {
 			color: #333;
 			&:hover {
-				color: #fff;
+				color: #02a8f3;
 			}
 		}
 		.active {
-			color: #fff;
+			color: #02a8f3;
 		}
 		li:last-child a {
 			text-align: center;
@@ -62,7 +64,7 @@
 	}
 }
 
-
+// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 	.head {
 		&:before {
@@ -94,11 +96,18 @@
 		}
 		.navbar-collapse {
 			padding-top: 0px;
+			margin-top: 0px;
 		}
 		.navbar-right {
 			padding-top: 3px;
 			li {
 				margin: 0px 10px;
+			}
+			a:hover {
+				color: #fff;
+			}
+			.active {
+				color: #fff;
 			}
 			li:last-child {
 				margin-left: 35px;
@@ -131,3 +140,16 @@
 		}
 	}
 }
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.head {
+		.navbar-text {
+			display: block;
+		}
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

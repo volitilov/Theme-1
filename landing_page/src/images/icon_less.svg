@@ -11,7 +11,7 @@
 <mask maskUnits="userSpaceOnUse" x="62" y="-12" width="149" height="169" id="SVGID_1_">
 	<g filter="url(#Adobe_OpacityMaskFilter)">
 		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="99.4766" y1="-10.6123" x2="122.8697" y2="52.3501">
-			<stop  offset="0.0257" style="stop-color:#000000"/>
+			<stop  offset="0.0257" style="stop-color:#fff000"/>
 			<stop  offset="0.1769" style="stop-color:#010202"/>
 			<stop  offset="1" style="stop-color:#FFFFFF"/>
 		</linearGradient>
@@ -20,8 +20,8 @@
 </mask>
 <g mask="url(#SVGID_1_)">
 	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="106.0723" y1="54.3931" x2="155.2645" y2="104.3344">
-		<stop  offset="0" style="stop-color:#000000;stop-opacity:0.7"/>
-		<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		<stop  offset="0" style="stop-color:#fff000;stop-opacity:0.7"/>
+		<stop  offset="1" style="stop-color:#fff000;stop-opacity:0"/>
 	</linearGradient>
 	<path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" fill="transparent" d="M196.06,106.47L211,91.54l-5.977-5.972
 		l-13.942-13.934l-5.977-5.972l-46.419-46.39l-5.975-5.972l-0.081,0.082c1.292,1.449,2.235,3.501,2.542,6.372L103.398-12
@@ -41,7 +41,7 @@
 			c-2.449-0.79-4.049-1.58-5.109-2.69c-1.481-1.561-2.38-3.521-3-6.42V24.728c0-6.88-4.07-8.261-9-8.261h-1V10.056z"/>
 	</g>
 	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M118,10.056h2c2.82,0,15-1.57,15,11.921v8.25
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M118,10.056h2c2.82,0,15-1.57,15,11.921v8.25
 			c0,12.082,2.599,13.571,3.999,14.672c1.401,1.12,2.78,1.78,5.001,1.84v1.77v0.981v1.77c-2.221,0.061-3.6,0.72-5.001,1.84
 			c-1.4,1.1-3.999,2.59-3.999,14.672v8.251c0,13.491-12.18,11.921-15,11.921h-2v-6.409h1c4.93,0,9-1.381,9-8.263V58.601
 			c0.62-2.9,1.519-4.86,3-6.42c1.061-1.11,2.66-1.9,5.109-2.69l0.301-0.1l1.179-0.39l-1.179-0.39l-0.301-0.101
@@ -57,7 +57,7 @@
 			c2.45-0.79,4.049-1.58,5.11-2.69c1.48-1.561,2.38-3.521,3-6.42V24.728c0-6.88,4.069-8.261,9-8.261h1V10.056z"/>
 	</g>
 	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M81,10.056h-2c-2.821,0-15-1.57-15,11.921v8.25
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M81,10.056h-2c-2.821,0-15-1.57-15,11.921v8.25
 			c0,12.082-2.601,13.571-3.999,14.672C58.6,46.02,57.219,46.68,55,46.74v1.77v0.981v1.77c2.219,0.061,3.6,0.72,5.001,1.84
 			c1.398,1.1,3.999,2.59,3.999,14.672v8.251c0,13.491,12.179,11.921,15,11.921h2v-6.409h-1c-4.931,0-9-1.381-9-8.263V58.601
 			c-0.62-2.9-1.52-4.86-3-6.42c-1.062-1.11-2.66-1.9-5.11-2.69l-0.3-0.1L61.409,49l1.181-0.39l0.3-0.101
@@ -70,7 +70,7 @@
 			s-2.01,4.479-4.5,4.479S82,52.958,82,50.479z"/>
 	</g>
 	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M81,49.479C81,47,83.009,45,85.499,45s4.5,2,4.5,4.479
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M81,49.479C81,47,83.009,45,85.499,45s4.5,2,4.5,4.479
 			s-2.01,4.479-4.5,4.479S81,51.958,81,49.479z"/>
 	</g>
 </g>
@@ -80,7 +80,7 @@
 			s-2.01,4.479-4.5,4.479C98.01,54.958,96,52.958,96,50.479z"/>
 	</g>
 	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M95,49.479C95,47,97.01,45,99.499,45c2.49,0,4.5,2,4.5,4.479
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M95,49.479C95,47,97.01,45,99.499,45c2.49,0,4.5,2,4.5,4.479
 			s-2.01,4.479-4.5,4.479C97.01,53.958,95,51.958,95,49.479z"/>
 	</g>
 </g>
@@ -90,7 +90,7 @@
 			s-2.01,4.479-4.5,4.479C112.01,54.958,110,52.958,110,50.479z"/>
 	</g>
 	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M109,49.479C109,47,111.01,45,113.499,45c2.49,0,4.5,2,4.5,4.479
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M109,49.479C109,47,111.01,45,113.499,45c2.49,0,4.5,2,4.5,4.479
 			s-2.01,4.479-4.5,4.479C111.01,53.958,109,51.958,109,49.479z"/>
 	</g>
 </g>

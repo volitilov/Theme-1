@@ -14,8 +14,10 @@
 			list-style: none;
 			display: block;
 		}
-		.facts-item {
+		li {
 			text-align: center;
+			display: inline-block;
+			margin: 20px;
 			span {
 				display: inline-block;
 				text-align: center;
@@ -39,7 +41,9 @@
 
 @media (min-width: 768px) {
 	.facts-box {
-		
+		li {
+			margin-bottom: 0px;
+		}
 	}
 }
 @media (min-width: 996px) {
@@ -50,6 +54,10 @@
 			margin-top: 50px;
 			padding-left: 50px;
 			padding-right: 50px;
+			li {
+				margin: 30px;
+				margin-bottom: 0px;
+			}
 		}
 	}
 }

@@ -1,8 +1,7 @@
 var j = jQuery.noConflict();
 
 j(function() {
-	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-	alert( "Текущая прокрутка: " + scrollTop );
+	
 
 	function clearActive() {
 		j('.navbar-right a').each(function() {

@@ -3,13 +3,13 @@ var j = jQuery.noConflict();
 j(function() {
 	let count = 0;
 	// copy portfolio item and append in popup
-	j('.portfolio-items a').each(function() {
-		count++;
+	j('.portfolio-item').each(function() {
+		count += 1;
 
 		var popupItem = document.createElement('li');
 		var itemImg = j(this).find('img').clone();
 
-		j(this).find('.ex-portfolio').attr('data-portfolio-item', count);
+		j(this).find('a').attr('data-portfolio-item', count);
 		j(popupItem).attr('data-item', count);
 
 		j(popupItem).addClass('item');
@@ -22,11 +22,11 @@ j(function() {
 	
 
 	// show active portfolio in popup
-	j('.portfolio-items a').click(function(event) {
+	j('.portfolio-item a').click(function(event) {
 		var event = event || window.event;
 		event.preventDefault();
 
-		var portf_item = j(this).find('.ex-portfolio').attr('data-portfolio-item');
+		var portf_item = j(this).attr('data-portfolio-item');
 
 		j('.popup-carousel li').each(function() {
 			if (j(this).hasClass('active')) {

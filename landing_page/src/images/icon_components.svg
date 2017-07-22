@@ -4,8 +4,8 @@
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="200px" height="140px" viewBox="0 0 200 140" enable-background="new 0 0 200 140" xml:space="preserve">
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="122.7373" y1="114.9053" x2="86.7361" y2="72.7058">
-	<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
-	<stop  offset="1" style="stop-color:#000000"/>
+	<stop  offset="0" style="stop-color:#fff000;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#fff000"/>
 </linearGradient>
 <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" fill="transparent" d="M65,88.644L113.41,137l9.5-9.489l0.5,0.499
 	l24.75-24.722l-10-9.989L97.77,52.953v1.269v16.462v15.463c0,1.389-1.119,2.517-2.51,2.517h-29.98
@@ -106,86 +106,86 @@ zmUxv+AdPnLpu4+D98426zRL0ZsP8IqYvKffyh3no134BCtod3z27zjmo8N7yHkIL+F9r8AOlfHf
 mvpI8FIU1et/AgwAna5f3DxZO20AAAAASUVORK5CYII=" transform="matrix(0.24 0 0 0.24 62 48.9556)">
 	</image>
 	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M65.51,50.956h29.98c1.389,0,2.51,1.128,2.51,2.517v31.925
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M65.51,50.956h29.98c1.389,0,2.51,1.128,2.51,2.517v31.925
 			c0,1.388-1.121,2.517-2.51,2.517H65.51c-1.391,0-2.51-1.129-2.51-2.517V53.473C63,52.084,64.119,50.956,65.51,50.956z"/>
 	</g>
 </g>
 <g>
-	<rect x="109" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="115" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="121" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="127" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="104" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="133" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="135" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="109" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="115" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="121" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="127" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="135" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="135" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="135" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="135" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="135" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="133" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="104" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="104" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="104" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="104" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="104" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="104" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="104" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
+	<rect x="109" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="115" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="121" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="127" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="104" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="133" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="135" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="109" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="115" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="121" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="127" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="135" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="135" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="135" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="135" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="135" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="133" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="104" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="104" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="104" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="104" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="104" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="104" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="104" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
 </g>
 <g>
-	<rect x="69" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="75" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="81" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="87" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="64" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="93" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="95" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="69" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="75" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="81" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="87" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="95" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="95" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="95" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="95" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="95" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="93" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="64" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="64" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="64" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="64" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="64" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="64" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="64" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
+	<rect x="69" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="75" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="81" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="87" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="64" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="93" y="11" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="95" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="69" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="75" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="81" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="87" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="95" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="95" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="95" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="95" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="95" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="93" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="64" y="43.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="64" y="11.999" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="64" y="34.972" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="64" y="28.979" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="64" y="22.985" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="64" y="16.993" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="64" y="40.965" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
 </g>
 <g>
-	<rect x="109" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="115" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="121" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="127" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="104" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="133" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="135" y="53.999" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="109" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="115" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="121" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="127" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="4" height="0.999"/>
-	<rect x="135" y="76.973" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="135" y="70.979" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="135" y="64.985" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="135" y="58.993" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="135" y="82.965" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="133" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="104" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="3" height="0.999"/>
-	<rect x="104" y="53.999" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
-	<rect x="104" y="76.973" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="104" y="70.979" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="104" y="64.985" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.995"/>
-	<rect x="104" y="58.993" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="3.996"/>
-	<rect x="104" y="82.965" fill-rule="evenodd" clip-rule="evenodd" fill="#000" width="1" height="2.997"/>
+	<rect x="109" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="115" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="121" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="127" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="104" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="133" y="53" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="135" y="53.999" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="109" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="115" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="121" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="127" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="4" height="0.999"/>
+	<rect x="135" y="76.973" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="135" y="70.979" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="135" y="64.985" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="135" y="58.993" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="135" y="82.965" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="133" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="104" y="85.962" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="3" height="0.999"/>
+	<rect x="104" y="53.999" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
+	<rect x="104" y="76.973" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="104" y="70.979" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="104" y="64.985" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.995"/>
+	<rect x="104" y="58.993" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="3.996"/>
+	<rect x="104" y="82.965" fill-rule="evenodd" clip-rule="evenodd" fill="#fff" width="1" height="2.997"/>
 </g>
 </svg>

@@ -4,7 +4,7 @@
 	padding: 0px;
 	.widjet-carousel {
 		display: block;
-		padding: 20px 170px;
+		padding: 0px;
 		padding-bottom: 0px;
 		.carousel-inner {
 			padding: 0px;
@@ -18,6 +18,7 @@
 		}
 	}
 	.carousel-control {
+		display: none;
 		text-align: center;
 		position: absolute;
 		top: 0;
@@ -28,58 +29,23 @@
 			width: 40%;
 		}
 	}
-	.right, .left {
-		padding-top: 300px;
-	}
 	.right {
 		left: auto;
 		right: 0;
 		bottom: 0;
 	}
-	// widjet-carousel item 1
-	.start-info {
-		// background-color: rgba(0, 0, 0, .1);
-		border-radius: 6px;
-		padding: 100px 80px;
-		padding-bottom: 50px;
-		span {
-			display: block;
-			margin-top: 50px;
-		}
-		a {
-			transition: 0.3s;
-			display: inline-block;
-			margin-top: 20px;
-			text-align: center;
-			color: #02a8f3;
-			transition: all 0.3s;
-			background-image: url('/images/d-wave.gif');
-			background-size: cover;
-			border-radius: 4px;
-			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-			padding: 15px 20px;
-			text-transform: uppercase;
-		}
-		h2 {
-			margin-top: 0px;
-			margin-bottom: 20px;
-		}
-		.mouse {
-			margin-top: 50px;
-			img {
-				width: 100%;
-			}
-		}
-	}
 }
 
 
-
-
+// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 	.Home {
+		.widjet-carousel {
+			padding: 20px 100px;
+			padding-bottom: 0px;
+		}
 		.carousel-control {
+			display: inline-block;
 			width: 155px !important;
 			img {
 				width: 30%;
@@ -91,3 +57,16 @@
 		}
 	}
 }
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.Home {
+		.widjet-carousel {
+			padding: 20px 170px;
+		}
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

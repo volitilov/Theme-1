@@ -1,20 +1,26 @@
 var j = jQuery.noConflict();
 
 j(function() {
-	j('.portfolio-items li').slice(3).show();
+	let itemsCount = 0;
+	j('.portfolio-items2 li').each(function() {
+		itemsCount += 1;
+		if (itemsCount > 6) {
+			j(this).hide();
+		}
+	});
 
     j('.portfolio-nav a').click(function(event) {
     	var event = event || window.event;
     	event.preventDefault();
 
-    	j('.portfolio-nav a').each(function() {
-    		if (j(this).hasClass('active')) {
-    			j(this).removeClass('active');
-    		}
-    	})
+		j('.portfolio-nav a').each(function() {
+			if (j(this).hasClass('active')) {
+				j(this).removeClass('active');
+			}
+		})
 
     	function showClass(className) {
-    		j('.portfolio-items li').each(function() {
+    		j('.portfolio-items2 li').each(function() {
 				if (j(this).hasClass(className)) {
 					j(this).show();
 				} else {
@@ -41,10 +47,10 @@ j(function() {
 				j(this).addClass('active');
 				break;
 			default:
-				j('.portfolio-items li').each(function() {
+				j('.portfolio-items2 li').each(function() {
 					j(this).show();
 				});
-				 j('.load-more a').hide();
+				j('.load-more a').hide();
 				j(this).addClass('active');
 		}
 
@@ -55,7 +61,7 @@ j(function() {
     	var event = event || window.event;
     	event.preventDefault();
 
-    	j('.portfolio-items li').each(function() {
+    	j('.portfolio-items2 li').each(function() {
 			j(this).show();
 		});
 
