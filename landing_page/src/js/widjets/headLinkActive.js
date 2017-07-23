@@ -1,7 +1,21 @@
 var j = jQuery.noConflict();
 
 j(function() {
-	
+	function getCoords(elem) {
+	  
+		var box = document.querySelector(elem).getBoundingClientRect();
+
+		var body = document.body;
+		var docEl = document.documentElement;
+
+		var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+
+		var clientTop = docEl.clientTop || body.clientTop || 0;
+
+		var top = box.top + scrollTop - clientTop;
+
+		return top;
+	}
 
 	function clearActive() {
 		j('.navbar-right a').each(function() {
@@ -27,19 +41,23 @@ j(function() {
 			addClassActive('Home');
 		}
 
-		if ( scrTop >= 774 ) {
+		if ( scrTop >= getCoords('#info') ) {
 			clearActive();
 			addClassActive('About');
 		}
 
-		if ( scrTop >= 2938 ) {
+		if ( scrTop >= getCoords('#portfolio') ) {
 			clearActive();
 			addClassActive('Portfolio');
 		}
 
-		if (  scrTop >= 4081 ) {
+		if (  scrTop >= getCoords('#services') ) {
 			clearActive();
 			addClassActive('Services');
+		}
+
+		if (  scrTop >= getCoords('#contacts') ) {
+			clearActive();
 		}
 
 	})
@@ -52,7 +70,7 @@ j(function() {
 		j(this).addClass('active');
 		var el = j(this).attr('href');
 		j('body').animate({
-		    scrollTop: j(el).offset().top}, 1800);
+		    scrollTop: j(el).offset().top - 50}, 1800);
 		return false;
 	});
 

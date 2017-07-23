@@ -16,36 +16,16 @@
 		bottom: 0px;
 		display: none;
 		background-color: rgba(255, 255, 255, .99);
-		padding: 10px 175px;
-		&:before {
-			content: '';
-			width: 155px;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			z-index: 11;
-			background-color: rgba(0, 0, 0, 0.1);
-		}
-		&:after {
-			content: '';
-			width: 155px;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			right: 0;
-			z-index: 11;
-			background-color: rgba(0, 0, 0, 0.1);
-		}
+		padding: 50px 10px;
 		.popup-head {
 			a {
 				position: absolute;
-				right: 60px;
-				top: 25px;
+				right: 20px;
+				top: 20px;
 				color: #000;
 				z-index: 9999999;
 				i {
-					font-size: 30px;
+					font-size: 20px;
 				}
 			}
 		}
@@ -59,12 +39,12 @@
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
-				padding: 15px;
+				padding: 10px;
 				background-color: #fff;
 				border-radius: 6px;
 				box-shadow: 0 1px 5px -1px rgba(0,0,0,.15);
 				img {
-					border-radius: 6px;
+					border-radius: 4px;
 					width: 100%;
 					height: auto;
 				}
@@ -83,6 +63,7 @@
 			}
 		}
 		.popup-control {
+			display: none;
 			text-align: center;
 			position: absolute;
 			top: 0;
@@ -103,4 +84,60 @@
 			bottom: 0;
 		}
 	}
+}
+
+@media (min-width: 768px) {
+	.popup {
+		.popup-window {
+			padding: 50px;
+			.popup-head {
+				a {
+					right: 60px;
+					top: 25px;
+					i {
+						font-size: 30px;
+					}
+				}
+			}
+			.popup-body {
+				.item {
+					padding: 15px;
+					border-radius: 6px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 996px) {
+	.popup {
+		.popup-window {
+			padding: 10px 175px;
+			&:before {
+				content: '';
+				width: 155px;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 11;
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+			&:after {
+				content: '';
+				width: 155px;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				z-index: 11;
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+			.popup-control {
+				display: block;
+			}
+		}
+	}
+}
+@media (min-width: 1250px) {
+	
 }
