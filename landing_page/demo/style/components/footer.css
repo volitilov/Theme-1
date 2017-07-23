@@ -1,0 +1,238 @@
+footer {
+  padding: 0px;
+}
+footer .menu-icons {
+  z-index: 2;
+  text-align: center;
+  margin-top: -5px;
+  padding: 25px 0px;
+  background-color: #02a8f3;
+  -webkit-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+}
+footer .menu-icons i {
+  transition: all 0.3s;
+  font-size: 15px;
+  color: #333;
+}
+footer .menu-icons ul {
+  padding: 0px;
+  list-style: none;
+}
+footer .menu-icons ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .menu-icons ul li a {
+  transition: all 0.3s;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #333;
+  border-radius: 50%;
+  padding-top: 9px;
+  margin: 5px;
+  text-align: center;
+}
+footer .menu-icons ul li a:hover {
+  border: 3px solid #333;
+  background-color: #333;
+}
+footer .menu-icons ul li a:hover i {
+  color: #02a8f3;
+}
+footer .footer-body {
+  text-align: center;
+  z-index: 99;
+  -webkit-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  background-color: #02a8f3;
+  margin-top: -5px;
+  padding: 50px 0px;
+}
+footer .footer-body form {
+  position: relative;
+  -webkit-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+footer .footer-body form fieldset {
+  border: none !important;
+}
+footer .footer-body form input {
+  display: inline-block;
+  color: #333;
+  transition: 0.3s;
+  background-color: transparent !important;
+  padding-left: 20px;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 3px solid #333;
+}
+footer .footer-body form input:focus {
+  border-radius: 6px;
+  border: 3px solid #02a8f3;
+  -webkit-appearance: caps-lock-indicator;
+  outline: none;
+}
+footer .footer-body form textarea {
+  color: #333;
+  transition: 0.3s;
+  background-color: transparent !important;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 80%;
+  border-radius: 10px;
+  height: 200px;
+  border: 3px solid #333;
+}
+footer .footer-body form textarea:focus {
+  border-radius: 6px;
+  border: 3px solid #02a8f3;
+  -webkit-appearance: caps-lock-indicator;
+  outline: none;
+}
+footer .footer-body form input::-webkit-input-placeholder,
+footer .footer-body form textarea::-webkit-input-placeholder {
+  color: #333;
+}
+footer .footer-body form input::-webkit-outer-spin-button,
+footer .footer-body form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+footer .footer-body form legend {
+  display: none;
+}
+footer .footer-body form button {
+  border: none;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  color: #02a8f3;
+  transition: all 0.3s;
+  background-image: url('/images/d-wave.gif');
+  background-size: cover;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  padding: 15px 40px;
+  text-transform: uppercase;
+}
+footer .footer-body form button:hover {
+  cursor: pointer;
+}
+footer .bottom-text {
+  text-align: center;
+  z-index: 199;
+  -webkit-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+  background-color: #333;
+  margin-top: -5px;
+  padding: 15px;
+  padding-top: 20px;
+  font-size: 13px;
+  color: #777;
+}
+footer .bottom-text span {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .bottom-text span:last-child {
+  margin-left: 15px;
+}
+footer .bottom-text img {
+  width: 40%;
+}
+footer .bottom-text a {
+  font-size: 13px;
+  color: #02a8f3;
+}
+footer .bottom-text a:hover {
+  color: #fff;
+  text-decoration: underline !important;
+}
+@media (min-width: 768px) {
+  footer .menu-icons:before {
+    content: '';
+    width: 155px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  footer .menu-icons:after {
+    content: '';
+    width: 155px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  footer .footer-body {
+    padding: 50px 170px;
+  }
+  footer .footer-body:before {
+    content: '';
+    width: 155px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  footer .footer-body:after {
+    content: '';
+    width: 155px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  footer form input {
+    width: 40%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  footer form textarea {
+    margin-top: 10px;
+    margin-left: -5px;
+    width: 80%;
+  }
+  footer .bottom-text {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  footer .bottom-text p {
+    text-align: left;
+  }
+}
+@media (min-width: 996px) {
+  footer .footer-body form input {
+    width: 25%;
+  }
+  footer .footer-body form textarea {
+    width: 51%;
+  }
+  footer .bottom-text {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}

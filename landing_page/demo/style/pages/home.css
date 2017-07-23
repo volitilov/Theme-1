@@ -1,0 +1,64 @@
+.Home {
+  margin-top: 70px;
+  background: #02a8f3;
+  padding: 0px;
+}
+.Home .widjet-carousel {
+  display: block;
+  padding: 0px;
+  padding-bottom: 0px;
+}
+.Home .widjet-carousel .carousel-inner {
+  padding: 0px;
+  min-height: 800px;
+}
+.Home .widjet-carousel .carousel-inner .item {
+  height: auto;
+}
+.Home .widjet-carousel .carousel-inner .carousel-caption {
+  display: block;
+}
+.Home .carousel-control {
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+}
+.Home .carousel-control img {
+  width: 40%;
+}
+.Home .right {
+  left: auto;
+  right: 0;
+  bottom: 0;
+}
+
+
+@media (min-width: 768px) {
+  .Home .widjet-carousel {
+    padding: 20px 100px;
+    padding-bottom: 0px;
+  }
+  .Home .carousel-control {
+    display: inline-block;
+    width: 155px !important;
+  }
+  .Home .carousel-control img {
+    width: 30%;
+  }
+  .Home .right,
+  .Home .left {
+    padding-top: 320px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+
+@media (min-width: 992px) {
+  .Home .widjet-carousel {
+    padding: 20px 170px;
+  }
+}

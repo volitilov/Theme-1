@@ -1,0 +1,159 @@
+.info-home {
+  z-index: 9;
+  background: #eaeaea url("/images/bg.png") repeat;
+  padding: 0px;
+}
+.info-home h5 {
+  text-transform: uppercase;
+  color: #333;
+}
+.info-home p {
+  color: #666;
+}
+.info-home a {
+  color: #02a8f3;
+}
+.info-home a:hover {
+  text-decoration: underline !important;
+}
+.info-home .info-home-block {
+  margin-top: -100px;
+  margin-bottom: -100px;
+  background-color: white;
+  border: 3px solid #02a8f3;
+  -webkit-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  padding: 30px;
+  padding-top: 50px;
+}
+.info-home .info-home-block .text-presentation span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.info-home .info-home-block .text-presentation img {
+  width: 50%;
+}
+.info-home .info-home-block .text-presentation p {
+  padding: 0px;
+}
+.info-home .info-home-block .text-presentation .block-title {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.info-home .info-home-block .dop-content {
+  border-top: 1px solid #ddd;
+  margin-top: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+.info-home .info-home-block .dop-content .info-small-item {
+  margin-top: 100px;
+  text-align: center;
+}
+.info-home .info-home-block .dop-content .info-small-item .dop-content-img {
+  display: inline-block;
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjYwcHgiIGhlaWdodD0iNDAwcHgiIHZpZXdCb3g9IjAgMCA2NjAgNDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2NjAgNDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGZpbGw9IiNGNUY1RjUiIHdpZHRoPSI2NjAiIGhlaWdodD0iNDAwIi8+DQo8ZyBvcGFjaXR5PSIwLjciPg0KCTxwYXRoIGZpbGw9IiNEOEQ4RDgiIGQ9Ik0yNTguMTg0LDE0My41djExM2gxNDMuNjMydi0xMTNIMjU4LjE4NHogTTM5MC4yNDQsMjQ0LjI0N0gyNzAuNDM3di04OC40OTRoMTE5LjgwOEwzOTAuMjQ0LDI0NC4yNDcNCgkJTDM5MC4yNDQsMjQ0LjI0N3oiLz4NCgk8cG9seWdvbiBmaWxsPSIjRDhEOEQ4IiBwb2ludHM9IjI3Ni44ODEsMjM0LjcxNyAzMDEuNTcyLDIwOC43NjQgMzEwLjgyNCwyMTIuNzY4IDM0MC4wMTYsMTgxLjY4OCAzNTEuNTA1LDE5NS40MzQgDQoJCTM1Ni42ODksMTkyLjMwMyAzODQuNzQ2LDIzNC43MTcgCSIvPg0KCTxjaXJjbGUgZmlsbD0iI0Q4RDhEOCIgY3g9IjMwNS40MDUiIGN5PSIxNzguMjU3IiByPSIxMC43ODciLz4NCjwvZz4NCjwvc3ZnPg0K");
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.info-home .info-home-block .dop-content .info-small-item .dop-content-img img {
+  width: 100%;
+  height: 150px;
+}
+.info-home .info-home-block .clients {
+  margin-top: 100px;
+  padding: 10%;
+  text-align: center;
+}
+.info-home .info-home-block .clients h4 {
+  color: #02a8f3;
+  padding-bottom: 20px;
+}
+.info-home .info-home-block .clients p {
+  margin-bottom: 50px;
+}
+.info-home .info-home-block .clients ul {
+  list-style: none;
+  padding: 0px;
+}
+.info-home .info-home-block .clients ul li {
+  display: inline-block;
+  margin: 15px;
+}
+.info-home .info-home-block .clients ul li a {
+  border-radius: 4px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjYwcHgiIGhlaWdodD0iNDAwcHgiIHZpZXdCb3g9IjAgMCA2NjAgNDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2NjAgNDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGZpbGw9IiNGNUY1RjUiIHdpZHRoPSI2NjAiIGhlaWdodD0iNDAwIi8+DQo8ZyBvcGFjaXR5PSIwLjciPg0KCTxwYXRoIGZpbGw9IiNEOEQ4RDgiIGQ9Ik0yNTguMTg0LDE0My41djExM2gxNDMuNjMydi0xMTNIMjU4LjE4NHogTTM5MC4yNDQsMjQ0LjI0N0gyNzAuNDM3di04OC40OTRoMTE5LjgwOEwzOTAuMjQ0LDI0NC4yNDcNCgkJTDM5MC4yNDQsMjQ0LjI0N3oiLz4NCgk8cG9seWdvbiBmaWxsPSIjRDhEOEQ4IiBwb2ludHM9IjI3Ni44ODEsMjM0LjcxNyAzMDEuNTcyLDIwOC43NjQgMzEwLjgyNCwyMTIuNzY4IDM0MC4wMTYsMTgxLjY4OCAzNTEuNTA1LDE5NS40MzQgDQoJCTM1Ni42ODksMTkyLjMwMyAzODQuNzQ2LDIzNC43MTcgCSIvPg0KCTxjaXJjbGUgZmlsbD0iI0Q4RDhEOCIgY3g9IjMwNS40MDUiIGN5PSIxNzguMjU3IiByPSIxMC43ODciLz4NCjwvZz4NCjwvc3ZnPg0K");
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.info-home .info-home-block .clients ul li a img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.info-home .info-home-block .author {
+  margin-top: 100px;
+  border-top: 1px solid #ddd;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.info-home .info-home-block .author span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  float: left;
+  margin-top: 10px;
+}
+.info-home .info-home-block .author img {
+  float: right;
+  width: 50%;
+}
+@media (min-width: 768px) {
+  .info-home {
+    padding-right: 55px;
+    padding-left: 55px;
+  }
+  .info-home .info-home-block {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .info-home .info-home-block .author {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .info-home .info-home-block .author span {
+    margin-top: 25px;
+  }
+  .info-home .info-home-block .author img {
+    width: 30%;
+  }
+}
+@media (min-width: 996px) {
+  .info-home {
+    padding-right: 155px;
+    padding-left: 155px;
+  }
+  .info-home .info-home-block .clients {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+  .info-home .info-home-block .clients h5 {
+    color: #02a8f3;
+  }
+  .info-home .info-home-block .author {
+    padding-bottom: 80px;
+  }
+}

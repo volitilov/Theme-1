@@ -1,0 +1,13 @@
+.grid-small-images {
+  display: none;
+}
+@media (min-width: 768px) {
+  .grid-small-images {
+    display: block;
+    padding: 0px;
+    padding-bottom: 100px;
+  }
+  .grid-small-images h4 {
+    margin-left: 10px;
+  }
+}
