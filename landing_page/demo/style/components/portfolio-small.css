@@ -48,6 +48,95 @@
 .portfolio-small .portfolio-small-item .load-more a:hover {
   color: #000;
 }
+
+.portfolio-items ul,
+.portfolio-items2 ul {
+  padding: 0px;
+  list-style: none;
+}
+.portfolio-items,
+.portfolio-items2 {
+  display: inline;
+  vertical-align: middle;
+}
+.portfolio-items .wraper,
+.portfolio-items2 .wraper {
+  transition: 0.3s;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+}
+.portfolio-items .wraper:hover,
+.portfolio-items2 .wraper:hover {
+  box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.15);
+}
+.portfolio-items .portfolio-item,
+.portfolio-items2 .portfolio-item {
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.portfolio-items .portfolio-item img,
+.portfolio-items2 .portfolio-item img {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border: 1px solid #eee;
+  border-bottom: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: #000 0 0 0;
+}
+.portfolio-items .portfolio-item figcaption,
+.portfolio-items2 .portfolio-item figcaption {
+  text-align: center;
+  background: #f7f7f7;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+.portfolio-items .portfolio-item figcaption h2,
+.portfolio-items2 .portfolio-item figcaption h2 {
+  font-size: 13px;
+  margin: 5px 0 25px;
+  font-weight: 500;
+  color: #444;
+}
+.portfolio-items .portfolio-item figure a,
+.portfolio-items2 .portfolio-item figure a {
+  display: block;
+}
+.portfolio-items .portfolio-item figcaption a,
+.portfolio-items2 .portfolio-item figcaption a {
+  transition: .2s;
+  font-family: inherit;
+  font-size: 15px;
+  font-style: inherit;
+  font-weight: inherit;
+  color: #666;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 20px;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+  border-radius: 3px;
+  text-shadow: none;
+  outline: 0;
+  -webkit-appearance: none;
+}
+.portfolio-items .portfolio-item figcaption a:hover,
+.portfolio-items2 .portfolio-item figcaption a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .portfolio-small {
     padding: 15px;
@@ -56,10 +145,16 @@
   .portfolio-small .portfolio-nav li {
     display: inline-block !important;
   }
+  .portfolio-item {
+    width: 49% !important;
+  }
 }
 @media (min-width: 1200px) {
   .portfolio-small {
     padding-left: 130px;
     padding-right: 130px;
+  }
+  .portfolio-item {
+    width: 33% !important;
   }
 }
