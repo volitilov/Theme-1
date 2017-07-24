@@ -17,6 +17,11 @@
   list-style: none;
   overflow: hidden;
 }
+.portfolio-items,
+.portfolio-items2 {
+  display: inline;
+  vertical-align: middle;
+}
 .portfolio-items .wraper,
 .portfolio-items2 .wraper {
   transition: 0.3s;
