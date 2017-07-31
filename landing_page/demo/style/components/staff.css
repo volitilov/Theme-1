@@ -16,6 +16,9 @@
   display: inline-block;
   margin: 10px;
 }
+.staff-item:hover {
+  cursor: pointer;
+}
 .staff .staff-item {
   background-color: #fff;
   transition: 0.3s;
@@ -23,14 +26,55 @@
   height: 150px;
   border-radius: 50%;
   padding: 8px;
-  -webkit-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
-.staff .staff-item:hover {
-  box-shadow: none;
+.staff-social {
+  position: absolute;
+  transition: all 0.3s;
+  opacity: 0;
+  margin-left: 30px;
+  display: none;
 }
-.staff .staff-item a img {
+.staff-social li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.staff-social i {
+  transition: all 0.3s;
+  font-size: 15px;
+  color: #333;
+}
+.staff-social a {
+  transition: all 0.3s;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #333;
+  border-radius: 50%;
+  padding-top: 9px;
+  margin: 5px;
+  text-align: center;
+}
+.staff-item:hover img {
+  opacity: 0;
+}
+.staff-item:hover .staff-social {
+  margin-top: -90px;
+  margin-left: 15px;
+  opacity: 1;
+  display: block;
+}
+.staff-social a:hover {
+  border: 3px solid #02a8f3;
+  background-color: transparent;
+}
+.staff-social a:hover i {
+  color: #02a8f3;
+}
+.staff .staff-item img {
+  transition: 0.3s;
   width: 100%;
   height: auto;
   display: block;
@@ -43,9 +87,9 @@
 }
 @media (min-width: 1250px) {
   .staff {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 150px;
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 200px;
   }
   .staff .staff-item {
     margin-top: 50px;

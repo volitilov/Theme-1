@@ -1,3 +1,6 @@
+#services {
+  margin-top: 50px;
+}
 .services {
   background: rgba(2, 168, 243, 0.1);
   background: -webkit-linear-gradient(to bottom, transparent, rgba(2, 168, 243, 0.1));
@@ -41,6 +44,6 @@
 @media (min-width: 1200px) {
   .services {
     padding: 50px 155px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
   }
 }

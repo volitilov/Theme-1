@@ -140,9 +140,11 @@
 @media (min-width: 768px) {
   .portfolio-small {
     padding: 15px;
-    padding-top: 180px;
+    padding-top: 250px;
+    padding-bottom: 100px;
   }
   .portfolio-small .portfolio-nav li {
+    margin-top: 50px;
     display: inline-block !important;
   }
   .portfolio-item {
